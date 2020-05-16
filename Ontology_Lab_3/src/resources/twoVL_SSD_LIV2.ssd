@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCL xmlns:sxy="http://www.iec.ch/61850/2006/SCLcoordinates" xmlns="http://www.iec.ch/61850/2006/SCL">
+  <Header id="?" nameStructure="IEDName" toolID="РАДИУС Автоматика, САПР ЦПС, Версия 0.988.7326.30070" version="?" />
+  <Substation name="PS_1" sxy:x="0" sxy:y="0">
+    <PowerTransformer name="T1" type="PTR" sxy:x="29" sxy:y="55" sxy:dir="vertical">
+	<Text>TwoWidningTransformers</Text>
+      <LNode iedName="None" lnClass="YPTR" lnInst="1" />
+      <TransformerWinding name="transfWind_1" type="PTW">
+        <Terminal connectivityNode="PS_1/220/bay_16/connvtyNode_40" substationName="PS_1" voltageLevelName="220" bayName="bay_16" cNodeName="connvtyNode_40" name="terminal_1" />
+      </TransformerWinding>
+      <TransformerWinding name="transfWind_2" type="PTW">
+        <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_32" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_32" name="terminal_2" />
+      </TransformerWinding>
+    </PowerTransformer>
+    <PowerTransformer name="T2" type="PTR" sxy:x="52" sxy:y="56" sxy:dir="vertical">
+	<Text>TwoWidningTransformers</Text>
+      <LNode iedName="None" lnClass="YPTR" lnInst="2" />
+      <TransformerWinding name="transfWind_1" type="PTW">
+        <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_32" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_32" name="terminal_1" />
+      </TransformerWinding>
+      <TransformerWinding name="transfWind_2" type="PTW">
+        <Terminal connectivityNode="PS_1/220/bay_17/connvtyNode_40" substationName="PS_1" voltageLevelName="220" bayName="bay_17" cNodeName="connvtyNode_40" name="terminal_2" />
+      </TransformerWinding>
+    </PowerTransformer>
+    <VoltageLevel name="500" sxy:x="0" sxy:y="2">
+      <Voltage multiplier="к" unit="V">500</Voltage>
+      <Bay name="bay_7" sxy:x="18" sxy:y="0">
+        <ConductingEquipment name="Q1C" type="CBR" sxy:x="11" sxy:y="10" sxy:dir="vertical">
+		  <Text>selectionalizingBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="1" />
+          <LNode iedName="None" lnClass="CILO" lnInst="1" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="1" />
+          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_6" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_5" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS1_Q1C" type="DIS" sxy:x="8" sxy:y="6" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XCBR" lnInst="2" />
+          <LNode iedName="None" lnClass="CILO" lnInst="2" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="2" />
+          <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_35" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_4" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS2_Q1C" type="DIS" sxy:x="10" sxy:y="13" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XCBR" lnInst="3" />
+          <LNode iedName="None" lnClass="CILO" lnInst="3" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="3" />
+          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_6" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_26" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_Q1C" type="CTR" sxy:x="8" sxy:y="8" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="1" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="1" />
+          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_4" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_5" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_Q1C" type="DIS" sxy:x="3" sxy:y="7" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="1" />
+          <LNode iedName="None" lnClass="CILO" lnInst="4" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="4" />
+          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_4" name="terminal_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_T2" type="DIS" sxy:x="8" sxy:y="0" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="2" />
+          <LNode iedName="None" lnClass="CILO" lnInst="5" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="5" />
+          <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_35" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_Q1C" type="DIS" sxy:x="0" sxy:y="10" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="3" />
+          <LNode iedName="None" lnClass="CILO" lnInst="6" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="6" />
+          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_6" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_4" pathName="PS_1/500/bay_7/connvtyNode_4" sxy:x="9" sxy:y="7" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_5" pathName="PS_1/500/bay_7/connvtyNode_5" sxy:x="9" sxy:y="10" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_6" pathName="PS_1/500/bay_7/connvtyNode_6" sxy:x="9" sxy:y="12" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_11" sxy:x="16" sxy:y="28">
+        <ConductingEquipment name="Q2C" type="CBR" sxy:x="11" sxy:y="4" sxy:dir="vertical">
+		<Text>selectionalizingBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="4" />
+          <LNode iedName="None" lnClass="CILO" lnInst="7" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="7" />
+          <Terminal connectivityNode="PS_1/500/bay_11/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_11" cNodeName="connvtyNode_6" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_11/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_11" cNodeName="connvtyNode_5" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS1_Q2C" type="DIS" sxy:x="8" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XCBR" lnInst="5" />
+          <LNode iedName="None" lnClass="CILO" lnInst="8" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="8" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_26" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_11/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_11" cNodeName="connvtyNode_4" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS2_Q2C" type="DIS" sxy:x="10" sxy:y="8" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XCBR" lnInst="6" />
+          <LNode iedName="None" lnClass="CILO" lnInst="9" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="9" />
+          <Terminal connectivityNode="PS_1/500/bay_11/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_11" cNodeName="connvtyNode_6" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_35" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_T1" type="DIS" sxy:x="0" sxy:y="8" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="4" />
+          <LNode iedName="None" lnClass="CILO" lnInst="10" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="10" />
+          <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_35" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_Q2C" type="CTR" sxy:x="8" sxy:y="4" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="2" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="2" />
+          <Terminal connectivityNode="PS_1/500/bay_11/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_11" cNodeName="connvtyNode_4" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_11/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_11" cNodeName="connvtyNode_5" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_Q2C" type="DIS" sxy:x="3" sxy:y="1" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="5" />
+          <LNode iedName="None" lnClass="CILO" lnInst="11" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="11" />
+          <Terminal connectivityNode="PS_1/500/bay_11/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_11" cNodeName="connvtyNode_4" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_Q2C" type="DIS" sxy:x="0" sxy:y="5" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="6" />
+          <LNode iedName="None" lnClass="CILO" lnInst="12" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="12" />
+          <Terminal connectivityNode="PS_1/500/bay_11/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_11" cNodeName="connvtyNode_6" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_4" pathName="PS_1/500/bay_11/connvtyNode_4" sxy:x="9" sxy:y="2" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_5" pathName="PS_1/500/bay_11/connvtyNode_5" sxy:x="9" sxy:y="4" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_6" pathName="PS_1/500/bay_11/connvtyNode_6" sxy:x="9" sxy:y="6" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_8" sxy:x="56" sxy:y="8">
+        <ConductingEquipment name="Q3C" type="CBR" sxy:x="12" sxy:y="5" sxy:dir="vertical">
+		<Text>selectionalizingBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="7" />
+          <LNode iedName="None" lnClass="CILO" lnInst="13" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="13" />
+          <Terminal connectivityNode="PS_1/500/bay_8/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_8" cNodeName="connvtyNode_6" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_8/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_8" cNodeName="connvtyNode_5" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS1_Q3C" type="DIS" sxy:x="9" sxy:y="1" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XCBR" lnInst="8" />
+          <LNode iedName="None" lnClass="CILO" lnInst="14" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="14" />
+          <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_35" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_8/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_8" cNodeName="connvtyNode_4" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS2_Q3C" type="DIS" sxy:x="10" sxy:y="9" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XCBR" lnInst="9" />
+          <LNode iedName="None" lnClass="CILO" lnInst="15" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="15" />
+          <Terminal connectivityNode="PS_1/500/bay_8/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_8" cNodeName="connvtyNode_6" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_26" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_Q3C" type="CTR" sxy:x="9" sxy:y="3" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="3" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="3" />
+          <Terminal connectivityNode="PS_1/500/bay_8/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_8" cNodeName="connvtyNode_4" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_8/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_8" cNodeName="connvtyNode_5" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_Q3C" type="DIS" sxy:x="3" sxy:y="2" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="7" />
+          <LNode iedName="None" lnClass="CILO" lnInst="16" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="16" />
+          <Terminal connectivityNode="PS_1/500/bay_8/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_8" cNodeName="connvtyNode_4" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_T2" type="DIS" sxy:x="0" sxy:y="0" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="8" />
+          <LNode iedName="None" lnClass="CILO" lnInst="17" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="17" />
+          <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_35" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_Q3C" type="DIS" sxy:x="1" sxy:y="6" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="9" />
+          <LNode iedName="None" lnClass="CILO" lnInst="18" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="18" />
+          <Terminal connectivityNode="PS_1/500/bay_8/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_8" cNodeName="connvtyNode_6" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_4" pathName="PS_1/500/bay_8/connvtyNode_4" sxy:x="9" sxy:y="3" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_5" pathName="PS_1/500/bay_8/connvtyNode_5" sxy:x="9" sxy:y="5" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_6" pathName="PS_1/500/bay_8/connvtyNode_6" sxy:x="9" sxy:y="7" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_9" sxy:x="57" sxy:y="26">
+        <ConductingEquipment name="Q4C" type="CBR" sxy:x="11" sxy:y="5" sxy:dir="vertical">
+		<Text>selectionalizingBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="10" />
+          <LNode iedName="None" lnClass="CILO" lnInst="19" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="19" />
+          <Terminal connectivityNode="PS_1/500/bay_9/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_9" cNodeName="connvtyNode_6" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_9/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_9" cNodeName="connvtyNode_5" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS1_Q4C" type="DIS" sxy:x="8" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XCBR" lnInst="11" />
+          <LNode iedName="None" lnClass="CILO" lnInst="20" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="20" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_26" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_9/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_9" cNodeName="connvtyNode_4" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS2_Q4C" type="DIS" sxy:x="10" sxy:y="8" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XCBR" lnInst="12" />
+          <LNode iedName="None" lnClass="CILO" lnInst="21" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="21" />
+          <Terminal connectivityNode="PS_1/500/bay_9/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_9" cNodeName="connvtyNode_6" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_35" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_T1" type="DIS" sxy:x="0" sxy:y="8" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="10" />
+          <LNode iedName="None" lnClass="CILO" lnInst="22" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="22" />
+          <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_35" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_Q4C" type="CTR" sxy:x="8" sxy:y="3" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="4" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="4" />
+          <Terminal connectivityNode="PS_1/500/bay_9/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_9" cNodeName="connvtyNode_4" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_9/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_9" cNodeName="connvtyNode_5" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_Q4C" type="DIS" sxy:x="3" sxy:y="1" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="11" />
+          <LNode iedName="None" lnClass="CILO" lnInst="23" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="23" />
+          <Terminal connectivityNode="PS_1/500/bay_9/connvtyNode_4" substationName="PS_1" voltageLevelName="500" bayName="bay_9" cNodeName="connvtyNode_4" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_Q4C" type="DIS" sxy:x="0" sxy:y="5" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="12" />
+          <LNode iedName="None" lnClass="CILO" lnInst="24" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="24" />
+          <Terminal connectivityNode="PS_1/500/bay_9/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_9" cNodeName="connvtyNode_6" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_4" pathName="PS_1/500/bay_9/connvtyNode_4" sxy:x="9" sxy:y="2" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_5" pathName="PS_1/500/bay_9/connvtyNode_5" sxy:x="9" sxy:y="4" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_6" pathName="PS_1/500/bay_9/connvtyNode_6" sxy:x="9" sxy:y="6" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_12" sxy:x="0" sxy:y="12">
+        <ConductingEquipment name="QSG_W1C" type="DIS" sxy:x="4" sxy:y="3" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="13" />
+          <LNode iedName="None" lnClass="CILO" lnInst="25" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="25" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_24" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_24" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_W1C" type="DIS" sxy:x="2" sxy:y="16" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="14" />
+          <LNode iedName="None" lnClass="CILO" lnInst="26" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="26" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_26" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TV1_W1C" type="VTR" sxy:x="5" sxy:y="6" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="5" />
+          <LNode iedName="None" lnClass="TVTR" lnInst="1" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_25" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_25" name="terminal_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_W1C" type="CTR" sxy:x="2" sxy:y="9" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="6" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="5" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_25" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_25" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_26" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS1_W1C" type="DIS" sxy:x="2" sxy:y="5" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="15" />
+          <LNode iedName="None" lnClass="CILO" lnInst="27" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="27" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_24" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_24" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_25" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_25" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_W1C" type="DIS" sxy:x="8" sxy:y="14" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="16" />
+          <LNode iedName="None" lnClass="CILO" lnInst="28" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="28" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_26" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="W1C" type="IFL" sxy:x="2" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="PTRC" lnInst="1" />
+          <Terminal connectivityNode="PS_1/500/bay_12/connvtyNode_24" substationName="PS_1" voltageLevelName="500" bayName="bay_12" cNodeName="connvtyNode_24" name="terminal_1" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_24" pathName="PS_1/500/bay_12/connvtyNode_24" sxy:x="2" sxy:y="4" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_25" pathName="PS_1/500/bay_12/connvtyNode_25" sxy:x="2" sxy:y="8" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_26" pathName="PS_1/500/bay_12/connvtyNode_26" sxy:x="3" sxy:y="13" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_13" sxy:x="73" sxy:y="11">
+        <ConductingEquipment name="QSG_W2C" type="DIS" sxy:x="4" sxy:y="2" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="17" />
+          <LNode iedName="None" lnClass="CILO" lnInst="29" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="29" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_24" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_24" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_W2C" type="DIS" sxy:x="3" sxy:y="16" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="18" />
+          <LNode iedName="None" lnClass="CILO" lnInst="30" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="30" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_26" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TV_W2C" type="VTR" sxy:x="5" sxy:y="6" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="7" />
+          <LNode iedName="None" lnClass="TVTR" lnInst="2" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_25" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_25" name="terminal_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_W2C" type="CTR" sxy:x="2" sxy:y="9" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="8" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="6" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_25" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_25" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_26" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS_W2C" type="DIS" sxy:x="2" sxy:y="4" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="19" />
+          <LNode iedName="None" lnClass="CILO" lnInst="31" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="31" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_24" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_24" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_25" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_25" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_W2C" type="DIS" sxy:x="8" sxy:y="14" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="20" />
+          <LNode iedName="None" lnClass="CILO" lnInst="32" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="32" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_26" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_26" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="W2C" type="IFL" sxy:x="2" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="PTRC" lnInst="2" />
+          <Terminal connectivityNode="PS_1/500/bay_13/connvtyNode_24" substationName="PS_1" voltageLevelName="500" bayName="bay_13" cNodeName="connvtyNode_24" name="terminal_1" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_24" pathName="PS_1/500/bay_13/connvtyNode_24" sxy:x="2" sxy:y="4" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_25" pathName="PS_1/500/bay_13/connvtyNode_25" sxy:x="2" sxy:y="8" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_26" pathName="PS_1/500/bay_13/connvtyNode_26" sxy:x="3" sxy:y="13" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_14" sxy:x="33" sxy:y="43">
+        <ConductingEquipment name="QS_T1" type="DIS" sxy:x="7" sxy:y="1" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="21" />
+          <LNode iedName="None" lnClass="CILO" lnInst="33" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="33" />
+          <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_35" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_30" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_30" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_T1" type="DIS" sxy:x="0" sxy:y="3" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="22" />
+          <LNode iedName="None" lnClass="CILO" lnInst="34" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="34" />
+          <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_30" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_30" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_T1" type="CTR" sxy:x="8" sxy:y="6" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="9" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="7" />
+          <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_30" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_30" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_14/connvtyNode_32" substationName="PS_1" voltageLevelName="500" bayName="bay_14" cNodeName="connvtyNode_32" name="terminal_2" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_30" pathName="PS_1/500/bay_14/connvtyNode_30" sxy:x="8" sxy:y="3" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_32" pathName="PS_1/500/bay_14/connvtyNode_32" sxy:x="8" sxy:y="8" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_35" pathName="PS_1/500/bay_14/connvtyNode_35" sxy:x="8" sxy:y="0" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_15" sxy:x="37" sxy:y="8">
+        <ConductingEquipment name="QS_T2" type="DIS" sxy:x="7" sxy:y="3" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="23" />
+          <LNode iedName="None" lnClass="CILO" lnInst="35" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="35" />
+          <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_35" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_35" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_30" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_30" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_T2" type="DIS" sxy:x="0" sxy:y="5" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="24" />
+          <LNode iedName="None" lnClass="CILO" lnInst="36" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="36" />
+          <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_30" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_30" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_T2" type="CTR" sxy:x="8" sxy:y="9" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="10" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="8" />
+          <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_30" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_30" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/500/bay_15/connvtyNode_32" substationName="PS_1" voltageLevelName="500" bayName="bay_15" cNodeName="connvtyNode_32" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_30" pathName="PS_1/500/bay_15/connvtyNode_30" sxy:x="8" sxy:y="6" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_32" pathName="PS_1/500/bay_15/connvtyNode_32" sxy:x="8" sxy:y="11" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_35" pathName="PS_1/500/bay_15/connvtyNode_35" sxy:x="8" sxy:y="0" sxy:dir="vertical" />
+      </Bay>
+    </VoltageLevel>
+    <VoltageLevel name="220" sxy:x="27" sxy:y="62">
+      <Voltage multiplier="к" unit="V">220</Voltage>
+      <Bay name="K1E" sxy:x="7" sxy:y="22">
+	  	<Text>Bus</Text>
+        <ConnectivityNode name="connvtyNode_2" pathName="PS_1/220/K1E/connvtyNode_2" sxy:x="0" sxy:y="2" sxy:dir="horizontal" />
+      </Bay>
+      <Bay name="K2E" sxy:x="32" sxy:y="23">
+	  	<Text>Bus</Text>
+        <ConnectivityNode name="connvtyNode_2" pathName="PS_1/220/K2E/connvtyNode_2" sxy:x="0" sxy:y="2" sxy:dir="horizontal" />
+      </Bay>
+      <Bay name="bay_16" sxy:x="4" sxy:y="0">
+        <ConductingEquipment name="QS_T1E" type="DIS" sxy:x="4" sxy:y="8" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="25" />
+          <LNode iedName="None" lnClass="CILO" lnInst="37" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="37" />
+          <Terminal connectivityNode="PS_1/220/bay_16/connvtyNode_39" substationName="PS_1" voltageLevelName="220" bayName="bay_16" cNodeName="connvtyNode_39" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/K1E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K1E" cNodeName="connvtyNode_2" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="Q_T1E" type="CBR" sxy:x="4" sxy:y="5" sxy:dir="vertical">
+		<Text>bypassBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="13" />
+          <LNode iedName="None" lnClass="CILO" lnInst="38" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="38" />
+          <Terminal connectivityNode="PS_1/220/bay_16/connvtyNode_38" substationName="PS_1" voltageLevelName="220" bayName="bay_16" cNodeName="connvtyNode_38" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_16/connvtyNode_39" substationName="PS_1" voltageLevelName="220" bayName="bay_16" cNodeName="connvtyNode_39" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_T1E" type="DIS" sxy:x="0" sxy:y="6" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="26" />
+          <LNode iedName="None" lnClass="CILO" lnInst="39" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="39" />
+          <Terminal connectivityNode="PS_1/220/bay_16/connvtyNode_39" substationName="PS_1" voltageLevelName="220" bayName="bay_16" cNodeName="connvtyNode_39" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_T1E" type="CTR" sxy:x="5" sxy:y="1" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="11" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="9" />
+          <Terminal connectivityNode="PS_1/220/bay_16/connvtyNode_40" substationName="PS_1" voltageLevelName="220" bayName="bay_16" cNodeName="connvtyNode_40" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_16/connvtyNode_38" substationName="PS_1" voltageLevelName="220" bayName="bay_16" cNodeName="connvtyNode_38" name="terminal_2" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_38" pathName="PS_1/220/bay_16/connvtyNode_38" sxy:x="5" sxy:y="3" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_39" pathName="PS_1/220/bay_16/connvtyNode_39" sxy:x="5" sxy:y="7" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_40" pathName="PS_1/220/bay_16/connvtyNode_40" sxy:x="5" sxy:y="0" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_17" sxy:x="22" sxy:y="0">
+        <ConductingEquipment name="QS_T2E" type="DIS" sxy:x="6" sxy:y="8" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="27" />
+          <LNode iedName="None" lnClass="CILO" lnInst="40" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="40" />
+          <Terminal connectivityNode="PS_1/220/bay_17/connvtyNode_39" substationName="PS_1" voltageLevelName="220" bayName="bay_17" cNodeName="connvtyNode_39" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/K2E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K2E" cNodeName="connvtyNode_2" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="Q_T2E" type="CBR" sxy:x="4" sxy:y="5" sxy:dir="vertical">
+		<Text>bypassBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="14" />
+          <LNode iedName="None" lnClass="CILO" lnInst="41" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="41" />
+          <Terminal connectivityNode="PS_1/220/bay_17/connvtyNode_38" substationName="PS_1" voltageLevelName="220" bayName="bay_17" cNodeName="connvtyNode_38" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_17/connvtyNode_39" substationName="PS_1" voltageLevelName="220" bayName="bay_17" cNodeName="connvtyNode_39" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_T2E" type="DIS" sxy:x="0" sxy:y="6" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="28" />
+          <LNode iedName="None" lnClass="CILO" lnInst="42" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="42" />
+          <Terminal connectivityNode="PS_1/220/bay_17/connvtyNode_39" substationName="PS_1" voltageLevelName="220" bayName="bay_17" cNodeName="connvtyNode_39" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_T2E" type="CTR" sxy:x="5" sxy:y="1" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="12" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="10" />
+          <Terminal connectivityNode="PS_1/220/bay_17/connvtyNode_40" substationName="PS_1" voltageLevelName="220" bayName="bay_17" cNodeName="connvtyNode_40" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_17/connvtyNode_38" substationName="PS_1" voltageLevelName="220" bayName="bay_17" cNodeName="connvtyNode_38" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_38" pathName="PS_1/220/bay_17/connvtyNode_38" sxy:x="5" sxy:y="3" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_39" pathName="PS_1/220/bay_17/connvtyNode_39" sxy:x="5" sxy:y="7" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_40" pathName="PS_1/220/bay_17/connvtyNode_40" sxy:x="5" sxy:y="0" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_18" sxy:x="3" sxy:y="27">
+        <ConductingEquipment name="QS2_Q1E" type="DIS" sxy:x="5" sxy:y="10" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="29" />
+          <LNode iedName="None" lnClass="CILO" lnInst="43" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="43" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_46" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_47" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS1_Q1E" type="DIS" sxy:x="5" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="30" />
+          <LNode iedName="None" lnClass="CILO" lnInst="44" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="44" />
+          <Terminal connectivityNode="PS_1/220/K1E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K1E" cNodeName="connvtyNode_2" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_44" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="Q1E" type="CBR" sxy:x="5" sxy:y="4" sxy:dir="vertical">
+		<Text>fiderBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="15" />
+          <LNode iedName="None" lnClass="CILO" lnInst="45" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="45" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_44" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_45" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_45" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_Q1E" type="DIS" sxy:x="0" sxy:y="2" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="31" />
+          <LNode iedName="None" lnClass="CILO" lnInst="46" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="46" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_44" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_W1E" type="DIS" sxy:x="2" sxy:y="12" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="32" />
+          <LNode iedName="None" lnClass="CILO" lnInst="47" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="47" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_47" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_Q1E" type="DIS" sxy:x="1" sxy:y="8" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="33" />
+          <LNode iedName="None" lnClass="CILO" lnInst="48" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="48" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_46" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_Q1E" type="CTR" sxy:x="5" sxy:y="7" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="13" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="11" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_45" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_45" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_46" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="W1E" type="IFL" sxy:x="5" sxy:y="15" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="PTRC" lnInst="3" />
+          <Terminal connectivityNode="PS_1/220/bay_18/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_18" cNodeName="connvtyNode_47" name="terminal_1" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_44" pathName="PS_1/220/bay_18/connvtyNode_44" sxy:x="5" sxy:y="3" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_45" pathName="PS_1/220/bay_18/connvtyNode_45" sxy:x="5" sxy:y="6" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_46" pathName="PS_1/220/bay_18/connvtyNode_46" sxy:x="5" sxy:y="9" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_47" pathName="PS_1/220/bay_18/connvtyNode_47" sxy:x="5" sxy:y="12" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_19" sxy:x="15" sxy:y="28">
+        <ConductingEquipment name="QS2_Q2E" type="DIS" sxy:x="5" sxy:y="10" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="34" />
+          <LNode iedName="None" lnClass="CILO" lnInst="49" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="49" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_46" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_47" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS1_Q2E" type="DIS" sxy:x="5" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="35" />
+          <LNode iedName="None" lnClass="CILO" lnInst="50" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="50" />
+          <Terminal connectivityNode="PS_1/220/K1E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K1E" cNodeName="connvtyNode_2" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_44" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="Q2E" type="CBR" sxy:x="5" sxy:y="4" sxy:dir="vertical">
+		<Text>fiderBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="16" />
+          <LNode iedName="None" lnClass="CILO" lnInst="51" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="51" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_44" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_45" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_45" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_Q2E" type="DIS" sxy:x="0" sxy:y="2" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="36" />
+          <LNode iedName="None" lnClass="CILO" lnInst="52" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="52" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_44" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_W2E" type="DIS" sxy:x="2" sxy:y="12" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="37" />
+          <LNode iedName="None" lnClass="CILO" lnInst="53" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="53" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_47" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_Q2E" type="DIS" sxy:x="1" sxy:y="8" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="38" />
+          <LNode iedName="None" lnClass="CILO" lnInst="54" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="54" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_46" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_Q2E" type="CTR" sxy:x="5" sxy:y="7" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="14" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="12" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_45" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_45" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_46" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="W2E" type="IFL" sxy:x="5" sxy:y="15" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="PTRC" lnInst="4" />
+          <Terminal connectivityNode="PS_1/220/bay_19/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_19" cNodeName="connvtyNode_47" name="terminal_1" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_44" pathName="PS_1/220/bay_19/connvtyNode_44" sxy:x="5" sxy:y="3" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_45" pathName="PS_1/220/bay_19/connvtyNode_45" sxy:x="5" sxy:y="6" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_46" pathName="PS_1/220/bay_19/connvtyNode_46" sxy:x="5" sxy:y="9" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_47" pathName="PS_1/220/bay_19/connvtyNode_47" sxy:x="5" sxy:y="12" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_20" sxy:x="39" sxy:y="27">
+        <ConductingEquipment name="QS2_Q4E" type="DIS" sxy:x="5" sxy:y="10" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="39" />
+          <LNode iedName="None" lnClass="CILO" lnInst="55" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="55" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_46" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_47" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS1_Q4E" type="DIS" sxy:x="5" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="40" />
+          <LNode iedName="None" lnClass="CILO" lnInst="56" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="56" />
+          <Terminal connectivityNode="PS_1/220/K2E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K2E" cNodeName="connvtyNode_2" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_44" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="Q4E" type="CBR" sxy:x="5" sxy:y="4" sxy:dir="vertical">
+		<Text>fiderBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="17" />
+          <LNode iedName="None" lnClass="CILO" lnInst="57" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="57" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_44" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_45" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_45" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_Q4E" type="DIS" sxy:x="0" sxy:y="2" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="41" />
+          <LNode iedName="None" lnClass="CILO" lnInst="58" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="58" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_44" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_W4E" type="DIS" sxy:x="2" sxy:y="12" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="42" />
+          <LNode iedName="None" lnClass="CILO" lnInst="59" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="59" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_47" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_Q4E" type="DIS" sxy:x="1" sxy:y="9" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="43" />
+          <LNode iedName="None" lnClass="CILO" lnInst="60" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="60" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_46" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_Q4E" type="CTR" sxy:x="5" sxy:y="7" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="15" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="13" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_45" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_45" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_46" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="W4E" type="IFL" sxy:x="5" sxy:y="15" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="PTRC" lnInst="5" />
+          <Terminal connectivityNode="PS_1/220/bay_20/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_20" cNodeName="connvtyNode_47" name="terminal_1" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_44" pathName="PS_1/220/bay_20/connvtyNode_44" sxy:x="5" sxy:y="3" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_45" pathName="PS_1/220/bay_20/connvtyNode_45" sxy:x="5" sxy:y="6" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_46" pathName="PS_1/220/bay_20/connvtyNode_46" sxy:x="5" sxy:y="9" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_47" pathName="PS_1/220/bay_20/connvtyNode_47" sxy:x="5" sxy:y="12" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_21" sxy:x="28" sxy:y="27">
+        <ConductingEquipment name="QS2_Q3E" type="DIS" sxy:x="5" sxy:y="10" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="44" />
+          <LNode iedName="None" lnClass="CILO" lnInst="61" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="61" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_46" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_47" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS1_Q3E" type="DIS" sxy:x="5" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="45" />
+          <LNode iedName="None" lnClass="CILO" lnInst="62" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="62" />
+          <Terminal connectivityNode="PS_1/220/K2E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K2E" cNodeName="connvtyNode_2" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_44" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="Q3E" type="CBR" sxy:x="5" sxy:y="4" sxy:dir="vertical">
+		<Text>fiderBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="18" />
+          <LNode iedName="None" lnClass="CILO" lnInst="63" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="63" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_44" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_45" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_45" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_Q3E" type="DIS" sxy:x="0" sxy:y="2" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="46" />
+          <LNode iedName="None" lnClass="CILO" lnInst="64" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="64" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_44" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_44" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_W3E" type="DIS" sxy:x="2" sxy:y="12" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="47" />
+          <LNode iedName="None" lnClass="CILO" lnInst="65" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="65" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_47" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_Q3E" type="DIS" sxy:x="1" sxy:y="9" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="48" />
+          <LNode iedName="None" lnClass="CILO" lnInst="66" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="66" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_46" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_Q3E" type="CTR" sxy:x="5" sxy:y="7" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="16" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="14" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_45" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_45" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_46" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_46" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="W3E" type="IFL" sxy:x="5" sxy:y="15" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="PTRC" lnInst="6" />
+          <Terminal connectivityNode="PS_1/220/bay_21/connvtyNode_47" substationName="PS_1" voltageLevelName="220" bayName="bay_21" cNodeName="connvtyNode_47" name="terminal_1" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_44" pathName="PS_1/220/bay_21/connvtyNode_44" sxy:x="5" sxy:y="3" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_45" pathName="PS_1/220/bay_21/connvtyNode_45" sxy:x="5" sxy:y="6" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_46" pathName="PS_1/220/bay_21/connvtyNode_46" sxy:x="5" sxy:y="9" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_47" pathName="PS_1/220/bay_21/connvtyNode_47" sxy:x="5" sxy:y="12" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_22" sxy:x="11" sxy:y="13">
+        <ConductingEquipment name="QS1_Q1EC" type="DIS" sxy:x="6" sxy:y="2" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="49" />
+          <LNode iedName="None" lnClass="CILO" lnInst="67" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="67" />
+          <Terminal connectivityNode="PS_1/220/bay_22/connvtyNode_60" substationName="PS_1" voltageLevelName="220" bayName="bay_22" cNodeName="connvtyNode_60" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/K1E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K1E" cNodeName="connvtyNode_2" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS2_Q1EC" type="DIS" sxy:x="18" sxy:y="0" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="50" />
+          <LNode iedName="None" lnClass="CILO" lnInst="68" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="68" />
+          <Terminal connectivityNode="PS_1/220/K2E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K2E" cNodeName="connvtyNode_2" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_22/connvtyNode_62" substationName="PS_1" voltageLevelName="220" bayName="bay_22" cNodeName="connvtyNode_62" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="Q1E_C" type="CBR" sxy:x="10" sxy:y="0" sxy:dir="horizontal">
+		<Text>BusBreaker</Text>
+          <LNode iedName="None" lnClass="XCBR" lnInst="19" />
+          <LNode iedName="None" lnClass="CILO" lnInst="69" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="69" />
+          <Terminal connectivityNode="PS_1/220/bay_22/connvtyNode_60" substationName="PS_1" voltageLevelName="220" bayName="bay_22" cNodeName="connvtyNode_60" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_22/connvtyNode_61" substationName="PS_1" voltageLevelName="220" bayName="bay_22" cNodeName="connvtyNode_61" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_Q1EC" type="DIS" sxy:x="14" sxy:y="4" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="51" />
+          <LNode iedName="None" lnClass="CILO" lnInst="70" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="70" />
+          <Terminal connectivityNode="PS_1/220/bay_22/connvtyNode_62" substationName="PS_1" voltageLevelName="220" bayName="bay_22" cNodeName="connvtyNode_62" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_K2E" type="DIS" sxy:x="20" sxy:y="1" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="52" />
+          <LNode iedName="None" lnClass="CILO" lnInst="71" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="71" />
+          <Terminal connectivityNode="PS_1/220/K2E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K2E" cNodeName="connvtyNode_2" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG2_K1E" type="DIS" sxy:x="2" sxy:y="1" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="53" />
+          <LNode iedName="None" lnClass="CILO" lnInst="72" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="72" />
+          <Terminal connectivityNode="PS_1/220/K1E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K1E" cNodeName="connvtyNode_2" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_Q1EC" type="DIS" sxy:x="9" sxy:y="4" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="54" />
+          <LNode iedName="None" lnClass="CILO" lnInst="73" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="73" />
+          <Terminal connectivityNode="PS_1/220/bay_22/connvtyNode_60" substationName="PS_1" voltageLevelName="220" bayName="bay_22" cNodeName="connvtyNode_60" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="TA_Q1EC" type="CTR" sxy:x="14" sxy:y="1" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="MMXU" lnInst="17" />
+          <LNode iedName="None" lnClass="TCTR" lnInst="15" />
+          <Terminal connectivityNode="PS_1/220/bay_22/connvtyNode_61" substationName="PS_1" voltageLevelName="220" bayName="bay_22" cNodeName="connvtyNode_61" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/bay_22/connvtyNode_62" substationName="PS_1" voltageLevelName="220" bayName="bay_22" cNodeName="connvtyNode_62" name="terminal_2" />
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_60" pathName="PS_1/220/bay_22/connvtyNode_60" sxy:x="10" sxy:y="1" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_61" pathName="PS_1/220/bay_22/connvtyNode_61" sxy:x="13" sxy:y="1" sxy:dir="vertical" />
+        <ConnectivityNode name="connvtyNode_62" pathName="PS_1/220/bay_22/connvtyNode_62" sxy:x="17" sxy:y="1" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_23" sxy:x="0" sxy:y="15">
+        <ConductingEquipment name="TV1_K1E" type="VTR" sxy:x="0" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="18" />
+          <LNode iedName="None" lnClass="TVTR" lnInst="3" />
+          <Terminal connectivityNode="PS_1/220/bay_23/connvtyNode_63" substationName="PS_1" voltageLevelName="220" bayName="bay_23" cNodeName="connvtyNode_63" name="terminal_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS_TV1E" type="DIS" sxy:x="5" sxy:y="5" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="55" />
+          <LNode iedName="None" lnClass="CILO" lnInst="74" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="74" />
+          <Terminal connectivityNode="PS_1/220/bay_23/connvtyNode_63" substationName="PS_1" voltageLevelName="220" bayName="bay_23" cNodeName="connvtyNode_63" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/K1E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K1E" cNodeName="connvtyNode_2" name="terminal_2" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_TV1E" type="DIS" sxy:x="-2" sxy:y="5" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="56" />
+          <LNode iedName="None" lnClass="CILO" lnInst="75" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="75" />
+          <Terminal connectivityNode="PS_1/220/bay_23/connvtyNode_63" substationName="PS_1" voltageLevelName="220" bayName="bay_23" cNodeName="connvtyNode_63" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_K1E" type="DIS" sxy:x="1" sxy:y="6" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="57" />
+          <LNode iedName="None" lnClass="CILO" lnInst="76" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="76" />
+          <Terminal connectivityNode="PS_1/220/K1E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K1E" cNodeName="connvtyNode_2" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_63" pathName="PS_1/220/bay_23/connvtyNode_63" sxy:x="1" sxy:y="5" sxy:dir="vertical" />
+      </Bay>
+      <Bay name="bay_24" sxy:x="38" sxy:y="8">
+        <ConductingEquipment name="TV2_K2E" type="VTR" sxy:x="3" sxy:y="0" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="MMXU" lnInst="19" />
+          <LNode iedName="None" lnClass="TVTR" lnInst="4" />
+          <Terminal connectivityNode="PS_1/220/bay_24/connvtyNode_63" substationName="PS_1" voltageLevelName="220" bayName="bay_24" cNodeName="connvtyNode_63" name="terminal_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QS_TV2E" type="DIS" sxy:x="7" sxy:y="6" sxy:dir="vertical">
+          <LNode iedName="None" lnClass="XSWI" lnInst="58" />
+          <LNode iedName="None" lnClass="CILO" lnInst="77" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="77" />
+          <Terminal connectivityNode="PS_1/220/bay_24/connvtyNode_63" substationName="PS_1" voltageLevelName="220" bayName="bay_24" cNodeName="connvtyNode_63" name="terminal_1" />
+          <Terminal connectivityNode="PS_1/220/K2E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K2E" cNodeName="connvtyNode_2" name="neutralPoint_1" />
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG_TV2E" type="DIS" sxy:x="0" sxy:y="5" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="59" />
+          <LNode iedName="None" lnClass="CILO" lnInst="78" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="78" />
+          <Terminal connectivityNode="PS_1/220/bay_24/connvtyNode_63" substationName="PS_1" voltageLevelName="220" bayName="bay_24" cNodeName="connvtyNode_63" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConductingEquipment name="QSG1_K2E" type="DIS" sxy:x="2" sxy:y="6" sxy:dir="horizontal">
+          <LNode iedName="None" lnClass="XSWI" lnInst="60" />
+          <LNode iedName="None" lnClass="CILO" lnInst="79" />
+          <LNode iedName="None" lnClass="CSWI" lnInst="79" />
+          <Terminal connectivityNode="PS_1/220/K2E/connvtyNode_2" substationName="PS_1" voltageLevelName="220" bayName="K2E" cNodeName="connvtyNode_2" name="terminal_1" />
+          
+        </ConductingEquipment>
+        <ConnectivityNode name="connvtyNode_63" pathName="PS_1/220/bay_24/connvtyNode_63" sxy:x="4" sxy:y="4" sxy:dir="vertical" />
+      </Bay>
+    </VoltageLevel>
+  </Substation>
+</SCL>

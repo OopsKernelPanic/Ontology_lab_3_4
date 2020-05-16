@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/darkness/ontologies/2020/4/untitled-ontology-32"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/darkness/ontologies/2020/4/untitled-ontology-32">
+    <Prefix name="" IRI="http://www.semanticweb.org/darkness/ontologies/2020/4/untitled-ontology-32"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Breaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CableLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConnectivityNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disconnector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipmentType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForceEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroundingKnife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InjuryType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasureEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OverheadLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelayTerminal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transformer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VoltageLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Winding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Protects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConnected"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConnectedObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isElectricalConnected"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInjury"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProtectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isVoltage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Object_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VoltageClass"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VoltageLevelName"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Breaker"/>
+        <Class IRI="#ForceEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#EquipmentType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CT"/>
+        <Class IRI="#MeasureEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CableLine"/>
+        <Class IRI="#ForceEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disconnector"/>
+        <Class IRI="#ForceEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForceEquipment"/>
+        <Class IRI="#EquipmentType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroundingKnife"/>
+        <Class IRI="#ForceEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasureEquipment"/>
+        <Class IRI="#EquipmentType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OverheadLine"/>
+        <Class IRI="#ForceEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reactor"/>
+        <Class IRI="#ForceEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transformer"/>
+        <Class IRI="#ForceEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VT"/>
+        <Class IRI="#MeasureEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Winding"/>
+        <Class IRI="#Transformer"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Protects"/>
+        <ObjectProperty IRI="#isProtectedBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Protects"/>
+        <Class IRI="#RelayTerminal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConnected"/>
+        <Class IRI="#ConnectivityNode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConnectedObject"/>
+        <Class IRI="#Transformer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isElectricalConnected"/>
+        <Class IRI="#EquipmentType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInjury"/>
+        <Class IRI="#EquipmentType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProtectedBy"/>
+        <Class IRI="#EquipmentType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isVoltage"/>
+        <Class IRI="#EquipmentType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Protects"/>
+        <Class IRI="#EquipmentType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConnected"/>
+        <Class IRI="#EquipmentType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConnectedObject"/>
+        <Class IRI="#Winding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isElectricalConnected"/>
+        <Class IRI="#EquipmentType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInjury"/>
+        <Class IRI="#InjuryType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProtectedBy"/>
+        <Class IRI="#RelayTerminal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isVoltage"/>
+        <Class IRI="#VoltageLevel"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Object_ID"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#VoltageClass"/>
+        <Class IRI="#VoltageLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#VoltageLevelName"/>
+        <Class IRI="#VoltageLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Object_ID"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#VoltageClass"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#VoltageLevelName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
