@@ -38,6 +38,8 @@ public class Interaction_Ontology {
         this.bound_ontology = new Bound_Ontology(null, null);
     }
 
+
+
     /*!
     Инициализируем внутренние объекты для работы с онтологией.
      */
@@ -57,8 +59,8 @@ public class Interaction_Ontology {
 
 
     /**
-    Добавить изменение в лист изменений. Они не будут пока что применены.
-    @param axiom добавляемое изменение.
+     Добавить изменение в лист изменений. Они не будут пока что применены.
+     @param axiom добавляемое изменение.
      */
 
     public void add_change(OWLAxiom axiom){
@@ -176,17 +178,16 @@ public class Interaction_Ontology {
     /**
      * метод создания аксиомы свойства данных
      * @param data_prop имя свойства данных
-     * @param ind1 имя индивида
      * @param data данные
      */
 
-    public void set_data_property_axiom(String data_prop, String ind1, int data){
-        if (data_prop != null && ind1 != null) {
+    public void set_data_property_axiom(String data_prop, OWLIndividual f_ind, String data){  // здесь было int у data  и имя индивида, вместо его самого
+        if (data_prop != null ) {
             OWLDataFactory df = this.get_Factory();
             String ns = this.get_iri(); // вытаскиваем IRI
 
             OWLDataProperty dataProperty = df.getOWLDataProperty(IRI.create(ns + data_prop));
-            OWLIndividual f_ind = df.getOWLNamedIndividual(IRI.create(ns + ind1));
+            //OWLIndividual f_ind = df.getOWLNamedIndividual(IRI.create(ns + ind1));
             this.add_change(df.getOWLDataPropertyAssertionAxiom(dataProperty, f_ind, data));
         }
     }
