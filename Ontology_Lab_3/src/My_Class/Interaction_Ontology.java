@@ -1,8 +1,9 @@
 package My_Class;
 
+import My_Class.Handler.Handler;
+import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.*;
-import org.semarglproject.vocab.OWL;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -34,6 +35,7 @@ public class Interaction_Ontology {
         this.list_change = new ArrayList<>();
 
         Type_Equipment.init_map();
+        Handler.init();
 
         this.bound_ontology = new Bound_Ontology(null, null);
     }
@@ -180,7 +182,6 @@ public class Interaction_Ontology {
      * @param data_prop имя свойства данных
      * @param data данные
      */
-
     public void set_data_property_axiom(String data_prop, OWLIndividual f_ind, String data){  // здесь было int у data  и имя индивида, вместо его самого
         if (data_prop != null ) {
             OWLDataFactory df = this.get_Factory();
@@ -191,5 +192,20 @@ public class Interaction_Ontology {
             this.add_change(df.getOWLDataPropertyAssertionAxiom(dataProperty, f_ind, data));
         }
     }
+
+        //функции, которые написал Миша
+
+    /**
+     * Получает имя индивида
+     * @param individ индивид, имя которого получаем
+     */
+
+    public String get_individ_name(OWLIndividual individ){
+        String name;
+        int index = individ.toStringID().indexOf("#"); // имя индивида в ID начинается после #
+        name = individ.toStringID().substring(index+1);
+        return name;
+    }
+
 
 }

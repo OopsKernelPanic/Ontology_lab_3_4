@@ -1,4 +1,5 @@
 import My_Class.Interaction_Ontology;
+import My_Class.Link_Creater;
 import My_Class.Parsing_Ontology;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.ontology.*;
@@ -32,8 +33,9 @@ public class TEST {
 
     public static void main(String[] args) throws OWLOntologyCreationException, FileNotFoundException, OWLOntologyStorageException, JAXBException {
 
-        String Path_XML = "C:/Users/Alexander/JavaProjects/Ontology_lab_3_4/Ontology_Lab_3/src/resources/PIGv10.scd";
-        String Path_Ontology = "C:/Users/Alexander/JavaProjects/Ontology_lab_3_4/Ontology_Lab_3/src/resources/Lab_3_1.owl";
+
+        String Path_XML = "/Users/darkness/Downloads/PIGv10.scd";
+        String Path_Ontology = "/Users/darkness/Downloads/Ontology_Lab_3/src/resources/Lab_3_1.owl";
 
         SCL scl = WorkWithConfigurationFiles.unMarshalAny(SCL.class, Path_XML);
 
@@ -45,7 +47,10 @@ public class TEST {
 
         ontology.apply_change();
 
-        ontology.save_ontology("C:/Users/Alexander/JavaProjects/Ontology_lab_3_4/Ontology_Lab_3/src/resources/ontology_new.owl");
+        Link_Creater.Creater(ontology.get_bound(), ontology);
+        ontology.apply_change();
+
+        ontology.save_ontology("/Users/darkness/Downloads/Ontology_Lab_3/src/resources/ontology_new.owl");
 
 
     }
