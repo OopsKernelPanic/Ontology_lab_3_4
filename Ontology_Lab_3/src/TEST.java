@@ -34,8 +34,10 @@ public class TEST {
     public static void main(String[] args) throws OWLOntologyCreationException, FileNotFoundException, OWLOntologyStorageException, JAXBException {
 
 
-        String Path_XML = "/Users/darkness/Downloads/PIGv10.scd";
-        String Path_Ontology = "/Users/darkness/Downloads/Ontology_Lab_3/src/resources/Lab_3_1.owl";
+//        String Path_XML = "/Users/darkness/Downloads/PIGv10.scd";
+        String Path_XML = "/Users/Alexander/JavaProjects/Ontology_lab_3_4/Ontology_Lab_3/src/resources/PIGv10.scd";
+//        String Path_Ontology = "/Users/darkness/Downloads/Ontology_Lab_3/src/resources/Lab_3_1.owl";
+        String Path_Ontology = "/Users/Alexander/JavaProjects/Ontology_lab_3_4/Ontology_Lab_3/src/resources/Lab_3_1.owl";
 
         SCL scl = WorkWithConfigurationFiles.unMarshalAny(SCL.class, Path_XML);
 
@@ -50,7 +52,8 @@ public class TEST {
         Link_Creater.Creater(ontology.get_bound(), ontology);
         ontology.apply_change();
 
-        ontology.save_ontology("/Users/darkness/Downloads/Ontology_Lab_3/src/resources/ontology_new.owl");
+//        ontology.save_ontology("/Users/darkness/Downloads/Ontology_Lab_3/src/resources/ontology_new.owl");
+        ontology.save_ontology("/Users/Alexander/JavaProjects/Ontology_lab_3_4/Ontology_Lab_3/src/resources/ontology_new.owl");
 
 
     }

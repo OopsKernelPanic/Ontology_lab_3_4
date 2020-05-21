@@ -148,6 +148,7 @@ public class Interaction_Ontology {
      * @param up_class имя главного класса
      * @param down_class имя подкласса
      */
+    @Deprecated
     public void set_subclass_axiom(String up_class, String down_class){
         if (up_class != null && down_class != null) {
             OWLDataFactory df = this.get_Factory();
@@ -202,6 +203,7 @@ public class Interaction_Ontology {
 
     public String get_individ_name(OWLIndividual individ){
         String name;
+
         int index = individ.toStringID().indexOf("#"); // имя индивида в ID начинается после #
         name = individ.toStringID().substring(index+1);
         return name;

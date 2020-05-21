@@ -29,7 +29,7 @@ public class Type_Equipment {
             map_type.put("VTR", "VT");
             map_type.put("CTR", "CT");
             map_type.put("CBR", "Breaker");
-            map_type.put("IWL", "OverheadLine");
+            map_type.put("IFL", "OverheadLine");
             map_type.put("CAB", "CableLine");
             map_type.put("REA", "Reactor");
             map_type.put("PTR", "Transformer");
@@ -62,6 +62,7 @@ public class Type_Equipment {
     Получить имя основных классов по enum.
     @param type - класс, который хочется получить
      */
+    @Deprecated
     static public String get_type_class(Type_Class type){
         String ret = "";
 
@@ -98,6 +99,9 @@ public class Type_Equipment {
                 break;
             case Substation:
                 ret += "Substation";
+                break;
+            case Bay:
+                ret += "Bus";
                 break;
             default:
                 return null;

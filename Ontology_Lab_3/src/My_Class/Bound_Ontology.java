@@ -9,6 +9,7 @@ import java.util.ArrayList;
 // commit
 public class Bound_Ontology{
 
+    // ================================ конструкторы для разных типов входных данных =================================
     Bound_Ontology(SCL element){
         this((TBaseElement) element, Type_Equipment.Type_Class.SCL);
     }
@@ -57,7 +58,7 @@ public class Bound_Ontology{
         this.child_list = new ArrayList<>();
     }
 
-
+// ===================================================================================================================
     protected TBaseElement element; // хранимый объект из SCD
     protected OWLIndividual individual; // его индивид в protege
     protected Bound_Ontology parent; // родительский узел
@@ -65,6 +66,8 @@ public class Bound_Ontology{
     protected ArrayList<Bound_Ontology> child_list; // список всех детей
 
     protected Type_Equipment.Type_Class type;
+
+// ===================================================================================================================
 
     public Bound_Ontology getParent(){
         return this.parent;
@@ -77,6 +80,8 @@ public class Bound_Ontology{
     public TBaseElement get_element(){
         return this.element;
     }
+
+// ===================================================================================================================
 
     /**!
      * Добавить в список детей ребенка узла
@@ -111,6 +116,8 @@ public class Bound_Ontology{
         return this.child_list;
     }
 
+// ===================================================================================================================
+
     /**
      *
      * @param bound - узел, объект scd которого нужно взять
@@ -122,6 +129,7 @@ public class Bound_Ontology{
     }
 
 
+// ===================================================================================================================
     // функции которые дописал Миша
 
     /**!
@@ -129,18 +137,42 @@ public class Bound_Ontology{
      * @param bound - узел, по которому будет идти поиск родителя
      * @param type - название типа элемента родителя, который мы ищем
      */
+    ///*
+    /*
+
+    Функция работает неправильно. Цикл выполняется бесконечно, т.к. while (true)
+    Внутри цикла вызывается метод "получить тип родителя" и полученный тип сравнивается с искомым
+     */
     public Bound_Ontology get_needed_parent(Bound_Ontology bound, Type_Equipment.Type_Class type){
         Bound_Ontology tempBound;
-        while (true){
-            tempBound = bound.getParent();
 
+        //while (true){
+            System.out.println("    ");
+            tempBound = bound.getParent();
+            //System.out.println("Parent: "+ bound.getParent());
             if(tempBound == null){
+
+                System.out.println("tempBound == null");
                 return null;
-            }
+            } // end if (tempBound == null)
+
             if (tempBound.getType() == type){
+
+                System.out.println("tempBound == type");
+                System.out.println("tempBound.getType(): "+ tempBound.getType());
+                System.out.println("type: "+type);
                 return tempBound;
             }
-        }
-    }
+            else{
+                System.out.println("tempBound != type");
+                System.out.println("tempBound.getType(): "+ tempBound.getType());
+                System.out.println("type: "+type);
 
-}
+            } // end if-else
+        System.out.println("get_needed_parent: доделайте меня");
+        return tempBound;
+
+    } // end return
+
+
+} // end class

@@ -72,6 +72,9 @@ public class Parsing_Ontology {
     static Bound_Ontology parsing(TBay bay, Interaction_Ontology ont){
         Bound_Ontology bound = new Bound_Ontology(bay);
 
+        bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type_class(Type_Equipment.Type_Class.Bay),
+                bay.getName()));
+
         for (TConductingEquipment equipment : bay.getConductingEquipment()){
             bound.add_child(parsing(equipment, ont));
         }
@@ -88,7 +91,7 @@ public class Parsing_Ontology {
 
         bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type(equipment.getType()),
                 equipment.getName()));
-
+        System.out.println(bound.getIndividual());
         for (TTerminal terminal : equipment.getTerminal()){
             bound.add_child(parsing(terminal, ont, equipment));
         }
