@@ -21,7 +21,9 @@ public class Handler_Terminal implements Base_Handler {
 
         // заполняем имя
         ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.VoltageLevelName), ind, voltageLevelName);
-
+        //id
+        ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.Object_ID),
+                ind, Long.toString(System.nanoTime()));
         // заполнение класса напряжения
         ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.VoltageClass), ind, Handler_VoltageLevel.get_voltage_class(voltageLevelName));
 

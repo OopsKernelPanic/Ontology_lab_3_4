@@ -42,7 +42,9 @@ public class Handler_VoltageLevel implements Base_Handler {
 
         // заполняем имя
         ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.VoltageLevelName), ind, voltageName);
-
+        //id
+        ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.Object_ID),
+                ind, Long.toString(System.nanoTime()));
         // заполняем уровень напряжения
         ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.VoltageClass), ind, get_voltage_class(voltageName));
 

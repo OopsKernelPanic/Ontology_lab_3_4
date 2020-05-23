@@ -146,7 +146,6 @@ public class Bound_Ontology{
     public Bound_Ontology get_needed_parent(Bound_Ontology bound, Type_Equipment.Type_Class type){
         Bound_Ontology tempBound;
 
-        //while (true){
             System.out.println("    ");
             tempBound = bound.getParent();
             //System.out.println("Parent: "+ bound.getParent());
@@ -169,10 +168,10 @@ public class Bound_Ontology{
                 System.out.println("type: "+type);
 
             } // end if-else
-        System.out.println("get_needed_parent: доделайте меня");
         return tempBound;
 
     } // end return
+
 
 
 } // end class

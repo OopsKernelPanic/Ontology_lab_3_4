@@ -14,7 +14,10 @@ public class Handler_PowerTransformer implements Base_Handler {
 
     @Override
     public void set_attribut(Bound_Ontology bound, Interaction_Ontology ontology) {
-
+        OWLIndividual ind = bound.getIndividual();
+        //id
+        ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.Object_ID),
+                ind, Long.toString(System.nanoTime()));
     }
 
     @Override

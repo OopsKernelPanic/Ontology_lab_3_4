@@ -80,7 +80,7 @@ public class Parsing_Ontology {
         }
 
         for (TConnectivityNode node : bay.getConnectivityNode()){
-            bound.add_child(parsing(node, ont));
+            bound.add_child(parsing(node, ont, bay));
         }
 
         return bound;
@@ -91,14 +91,16 @@ public class Parsing_Ontology {
 
         bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type(equipment.getType()),
                 equipment.getName()));
-        System.out.println(bound.getIndividual());
-        for (TTerminal terminal : equipment.getTerminal()){
-            bound.add_child(parsing(terminal, ont, equipment));
-        }
+
+        // убираем терминалы
+//        for (TTerminal terminal : equipment.getTerminal()){
+//            bound.add_child(parsing(terminal, ont, equipment));
+//        }
 
         return bound;
     }
 
+    @Deprecated
     static Bound_Ontology parsing(TTerminal terminal, Interaction_Ontology ont, TConductingEquipment equipment){
         Bound_Ontology bound = new Bound_Ontology(terminal);
 
@@ -108,11 +110,11 @@ public class Parsing_Ontology {
         return bound;
     }
 
-    static Bound_Ontology parsing(TConnectivityNode node, Interaction_Ontology ont){
+    static Bound_Ontology parsing(TConnectivityNode node, Interaction_Ontology ont, TBay bay){
         Bound_Ontology bound = new Bound_Ontology(node);
 
         bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type_class(Type_Equipment.Type_Class.ConnectivityNode),
-                node.getName()));
+                join_name(node.getName(), bay.getName())));
 
         return bound;
     }
