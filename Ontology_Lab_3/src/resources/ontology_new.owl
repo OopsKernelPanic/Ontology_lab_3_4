@@ -6232,1883 +6232,1983 @@
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Bus_coupler_circuit_breaker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069886700</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Busbar_sectionalizing_switch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069874200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Busbars"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069463100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#CAB1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297459467200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887954702200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#CAB1_T1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297477654800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887964504100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#CAB1_T2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297483108900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887966376800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#CAB2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297461292800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887955650300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#CAB3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297465209500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887957472200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#CAB4"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297469937700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887960937200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#CAB5"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297472871900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887962149800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#CAB6"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297475089300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963179700</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Current_limiting_reactor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069844300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Damage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069909500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Double-line-to-neutral_fault"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069819400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Double-phase_short_circuit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069407300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Double_earth_fault"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069326800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Earth_fault"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069455200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Fault_between_turns"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069435500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Fault_between_windings"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069894100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Fire_core"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069859700</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Hunting"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069444900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Increase_voltage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069901600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Interturn_fault"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069852400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#K1C_K1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297297832600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887876850300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#K1G_K1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297383629700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887922543000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#K1K_K1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297455627100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887953332200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#K2C_K2C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297307165900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887881903200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#K2G_K2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297406936300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887939396900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#K2K_K2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297457470900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887953976400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#LT1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297477415300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887964365700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#LT2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297482305500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887966265600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Lower_oil_level_in_the_tank"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069928400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Out_of_phase"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069919300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Overload"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069866700</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Phase-to-ground_fault"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069880400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object_ID"/>
+        <NamedIndividual IRI="#Phase_failure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360888069835500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297317725100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887886571100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297340506500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887904867800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_T1G1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297441040700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887949666300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_T1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297478234700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887964826400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_T2G2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297449869900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887951682300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_T2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297483749300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887966739500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297386611600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887924738000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297458754400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887954467200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297392463900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887930070000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297460649500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887955342400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W3G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297396567700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887934151600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W3K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297464711300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887957154200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W4G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297411470500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887940321100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W4K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297469228800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887960342400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W5G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297427274000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887944527400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W5K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297472267300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887961725900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W6G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297431602400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887946285800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q1_W6K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297474610300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887962976600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297326825800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887892439400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297349448100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887906719600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q3_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297334471700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887899939100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#Q3_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297356891700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887908958100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297423735300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887942588400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1G_QS1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297424850000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887943254400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1G_QS2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297420929700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887942272800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1G_QSG1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297425233600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887943419200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1G_QSG2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297422916400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887942400000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1G_TA1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297420003300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887942159100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1G_TA2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297424466000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887943050600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297467138900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887959534500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1K_QS1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297467703500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887959796700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1K_QS2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297466843500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887959416300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1K_QSG1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297468078700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887959931100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QC1K_TA"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297467421300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887959683400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297315396600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887885238700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297338692700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887903231500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297321564400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887887989300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297342905400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887905471800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_T1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297373604500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887915651600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_T1G1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297439872300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887948924100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_T1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297476667700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963990700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_T2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297380130600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887918408600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_T2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297480714700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965763400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297385656600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887924342800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297459179600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887954595400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297391666600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887929760100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297460891400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887955479800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W3G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297395980800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887933697200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W3K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297464964900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887957317700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W4G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297409865900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887940070100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W5G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297426629000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887944187200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W5K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297472527700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887961831200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W6G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297430691300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945960100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_W6K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297474860500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963080300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS1_WK"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297469605500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887960715800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297324924700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887890792000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297346973300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887906182300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297330832900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887896031500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297351488700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887907342700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_T1G1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297441966400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887950015400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_T1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297478043900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887964725200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_T2G2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297450755300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887952037900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_T2G2_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297451875400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887952492700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_T2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297483522300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887966581100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_W1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297387318100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887925707700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_W2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297393202100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887931246000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_W3G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297397130500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887934415200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_W4G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297414208000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887940797100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_W5G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297427801900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887944896400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS2_W6G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297432288500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887946581200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS3_1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297332632600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887898444200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS3_1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297355469400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887908288700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS3_2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297336668800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887900737500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS3_2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297360651200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887909569300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS3_T1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297478507400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887964927900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS3_T2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297483945000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887966909100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297316225800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887885698600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297339265800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887903687400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_1_T1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297372984000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887915468500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_1_T2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297379692900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887918184800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297320629100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887887169400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297342007700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887905245900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_2_T1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297374134400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887915814300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_2_T2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297380492200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887918605700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_K1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297289926700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887871123400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_K1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297382310400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887920925000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_K1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297477219200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887964256000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_K2C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297306301300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887881535400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_K2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297403844700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887938416800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_T1G1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297440500600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887949142800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_T2G2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297451170400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887952230200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_W1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297366897800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887913327500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_W1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297389327400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887927585000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_W2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297394913300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887932677600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_W3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297376591100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887916359900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_W3G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297402091100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887937351200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_W4G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297417998800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887941730200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_W5G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297429159700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945589500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG1_W6G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297434617700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887947968800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297325487000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887891305400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297347377500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887906362200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297329885900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887894875700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297351019900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887907081900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_K1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297296510000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887876294100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_K1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297383151300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887922147400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_K2C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297304281000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887880989000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_K2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297405074600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887939079800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_K2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297481666700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887966127400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_T1G1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297443317200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887950304500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_T2G2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297448973500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887951496500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_W1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297371185900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887914584800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_W1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297386083500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887924482000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_W2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297392135300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887929938900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_W3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297378784100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887917632800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_W3G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297396277900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887933997800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_W4G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297410938500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887940180000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_W5G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297426893000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887944358200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG2_W6G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297431002400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887946117200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297333079000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887898759400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297356178300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887908540600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297336174700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887900492900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297358963500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887909382900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_T1G1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297442789200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887950155300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_T2G2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297451561500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887952364800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_W1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297387623500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887925888800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_W2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297393521300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887931390400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_W3G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297397482200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887934573700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_W4G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297414868800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887940968800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_W5G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297428014700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945068700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG3_W6G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297432681800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887946808000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG_TV1K1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297298948600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887877364700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG_TV1K1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297384310600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887922921700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG_TV1K1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297456509100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887953636000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG_TV1K2C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297308590400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887882456900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG_TV1K2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297408089400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887939631400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG_TV1K2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297457914700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887954158600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG_TV2K1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297302058100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887880015600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QSG_TV2K2C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297312146500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887883956200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_TV1K1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297298373100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887877091200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_TV1K1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297383911600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887922712700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_TV1K1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297455961600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887953510600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_TV1K2C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297307837100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887882125100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_TV1K2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297407722200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887939483600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_TV1K2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297457644200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887954047700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_TV2K1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297301244200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887879493700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_TV2K2C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297310817600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887883451800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_W1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297368708500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887914109100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#QS_W3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297377921200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887916885800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#T1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297489680900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967447900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#T1_transfmrWndg1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297489735700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967469000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#T1_transfmrWndg2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297491649200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967515300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#T1_transfmrWndg3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297491745100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967540100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#T2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297491854300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967582900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#T2_transfmrWndg1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297491866700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967594300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#T2_transfmrWndg2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297493567100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967639400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#T2_transfmrWndg3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297499317900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967686600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297317104700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887886248000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297340101800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887904565300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297318723700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887886882600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297341014800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887905047400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_T1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297374560200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887915957600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_T1G1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297438991900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887948514900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_T1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297477849200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887964616900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_T2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297380730700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887918844800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_T2G2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297448004600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887951130000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_T2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297483337400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887966481000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_W1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297364568200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887911728600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_W1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297385418000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887924187700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_W2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297390502000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887929292600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_W3G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297395653800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887933187400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_W4G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297409375700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887939956600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_W5G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297426379400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887944017800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA1_W6G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297430368900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945809400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297325999300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887891708600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297348479100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887906536500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297329127900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887893658000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297350417200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887906890900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_T1G1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297441606200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887949803200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_T2G2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297450381400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887951855500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_W1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297386967400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887925010400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_W2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297392772900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887931055600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_W3G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297396857500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887934285100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_W4G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297412524400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887940657200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_W5G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297427563000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887944718500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA2_W6G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297431892700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887946437100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA3_1_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297333653000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887899199800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA3_1_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297356558400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887908782100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA3_2_K11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297335312000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887900280300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA3_2_K12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297357204300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887909154200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_T1G1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297439490500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887948761300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_T1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297476239600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963772900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_T2G2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297448419900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887951313900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_T2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297480136700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965533500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_W1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297459926400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887954934300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_W2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297462201600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887956253100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_W3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297377582300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887916724100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_W3K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297465666800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887958141700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_W4K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297470982100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887961236200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_W5K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297473627700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887962583800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TA_W6K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297475523900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963402100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV1_K1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297299620200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887877707600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV1_K1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297384751000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887923132100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV1_K2C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297309346700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887882776900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV1_K2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297408363500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887939757200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV2_K1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297303342800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887880392000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV2_K2C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297314145800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887884466800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV_K1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297456945100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887953748100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV_K1K_T1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297476436300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963889600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV_K2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297458311200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887954277000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV_K2K_T2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297480459700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965643000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV_W1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297365007800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887912587900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#TV_W3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297377089700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887916543300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W1C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297372197400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887915120300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W1G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297388973700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887927355600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W1K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297459704700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887954824200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W2G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297394678700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887932489100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W2K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297461727500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887955864200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W3C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297379122800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887917823500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W3G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297401773200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887936722800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W3K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297465433300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887957737800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W4G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297417498100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887941604800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W4K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297470275500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887961095200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W5G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297428920700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945457100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W5K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297473258500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887962412600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W6G"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297434046200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887947787500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#W6K"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297475294500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963284800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode10_K1_13"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297337101100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887901553200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode10_K1_23"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297361889700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887909785900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode11_K1_13"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297337419900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887902065600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode11_K1_23"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297362641100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887910191900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode12_K1_13"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297337736200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887902614600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode12_K1_23"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297363382500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887910601600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode13_K1_13"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297338206000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887903040300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode13_K1_23"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297364096400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887911270700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode14_t1c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297375029700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887916093100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode14_t2c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297381108900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887919044500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K1C_TV1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297300862400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887878935200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K1C_TV2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297303944500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887880792100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K1G_TV1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297385195100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887923902400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K1K_TV1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297457290700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887953865300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K1_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297324551100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887890503200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K1_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297346351300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887906040000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K2C_TV1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297310141800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887883161600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K2C_TV2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297314858700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887884974600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K2G_TV1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297408819800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887939882200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_K2K_TV1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297458584200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887954396700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_qc1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297425897200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887943696400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_qc1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297468405800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887960050100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_t1c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297375487800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887916179300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_t1g1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297444312500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887950530400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_t1k_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297478870500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965110300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_t1k_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297484202100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967031700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_t2c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297381370100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887919145700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_t2g2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297453168600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887952875800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297388361000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887926234100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w1k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297460140500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887955036400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w2g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297393994600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887931617900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w2k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297463977300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887956496700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w3c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297378574000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887917532100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w3g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297399738600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887935106200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w3k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297465936200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887958596800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w4g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297416063900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887941395900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w4k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297471268300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887961355000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w5g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297428480400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945262200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w5k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297473997600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887962699900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w6g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297433354700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887947464900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode1_w6k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297475714200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963497500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_K1_12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297331412600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887896820400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_K1_22"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297352970100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887907572400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_qc1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297425688900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887943579400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_t1c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297376153100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887916276900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_t1g1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297444103000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887950453800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_t1k_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297478746100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965036500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_t1k_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297484316400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967108800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_t2c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297381738500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887920150000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_t2g2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297452217200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887952623400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w1c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297371002800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887914460800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297388018400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887926125800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w1k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297460267500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887955122700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w2g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297393804900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887931529000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w2k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297464182700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887956692500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w3c_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297379440900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887918022800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w3g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297399057600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887934707500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w3k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297466094700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887959105300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w4g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297415738100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887941321400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w4k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297471594800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887961509700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w5g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297428327100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945195300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w5k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297474193400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887962771900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w6g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297433130000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887947026800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode2_w6k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297475831500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963561900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_K1_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297322609200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887888412100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_K1_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297344489700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887905668800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_t1g1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297446123500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887950800400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_t1k_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297476872800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887964120200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_t1k_2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297481069400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965926600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_t2g2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297452536300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887952766300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w1c_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297372686400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887915359100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w1g_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297389774200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887928276300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w1k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297460398300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887955208100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w2g_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297395260100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887932935700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w2k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297464386500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887956785700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w3g_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297402435400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887938040400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w3k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297466315800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887959212800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w4g_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297419011900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887942067800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w4k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297471795200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887961586500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w5g_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297430175800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945712600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w5k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297474361400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887962845600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w6g_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297438176700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887948168900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode3_w6k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297475972700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963628200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_K1_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297323233300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887889123100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_K1_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297345258600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887905781500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_qc1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297426061300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887943797700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_qc1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297468668600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887960173000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_t1g1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297445443600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887950605200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_t1k_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297479369300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965178500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_t1k_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297484466700</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967172500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_t2g2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297453518200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887952950600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297388582400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887926621900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w1k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297460515100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887955277700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w2g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297394340900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887931744700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w2k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297464538800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887957055500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w3g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297400398900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887935476500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w3k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297466649000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887959287900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w4g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297416362300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887941478700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w4k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297472051200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887961652200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w5g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297428624400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945324300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w5k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297474490800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887962913300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w6g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297433557900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887947592800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode4_w6k"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297476088100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887963688800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_K1_12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297331731600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887897356900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_K1_22"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297353865900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887907690800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_qc1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297426220900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887943910700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_qc1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297468826800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887960248100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_t1g1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297445709000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887950665500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_t1k_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297479519400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965275900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_t1k_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297485320600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967217100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_t2g2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297453901600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887953055100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_w1g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297388748900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887927194300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_w2g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297394561800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887931861200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_w3g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297401296800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887935854900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_w4g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297416982800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887941539700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_w5g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297428768900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887945388000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode5_w6g"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297433788800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887947692200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode6_K1_12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297332028200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887897775500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode6_K1_22"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297354154100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887907794100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode6_t1g1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297447622600</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887950988400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode6_t1k_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297479634200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965344300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode6_t1k_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297486035900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967255300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode6_t2g2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297454486100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887953153400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode7_K1_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297324152000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887890004600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode7_K1_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297346012200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887905882000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode7_t1k_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297477085400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887964188700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode7_t1k_11"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297479776200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887965436700</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode7_t1k_2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297481456500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887966014900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode7_t1k_21"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297488656500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887967355200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode8_K1_12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297332310100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887898224500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode8_K1_22"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297354480900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887907927500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode9_w1c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297370773800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887914336600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#connvtyNode9_w3c"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297378320200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887917233400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#10"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297455561800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887953308200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#VoltageClass"/>
@@ -8123,7 +8223,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#220"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297382184400</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887920888300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#VoltageClass"/>
@@ -8138,7 +8238,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Object_ID"/>
         <NamedIndividual IRI="#500"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360297289694800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">360887870935100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#VoltageClass"/>
