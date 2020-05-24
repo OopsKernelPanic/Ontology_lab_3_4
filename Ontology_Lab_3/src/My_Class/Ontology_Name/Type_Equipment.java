@@ -62,7 +62,6 @@ public class Type_Equipment {
     Получить имя основных классов по enum.
     @param type - класс, который хочется получить
      */
-    @Deprecated
     static public String get_type_class(Type_Class type){
         String ret = "";
 

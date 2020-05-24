@@ -43,13 +43,16 @@ public class TEST {
 
         Interaction_Ontology ontology = new Interaction_Ontology(Path_Ontology);
 
-
-        // парсим
+//           парсим
         Parsing_Ontology.parsing(scl, ontology);
 
         ontology.apply_change();
-
+//
         Link_Creater.Creater(ontology.get_bound(), ontology);
+        ontology.apply_change();
+
+        // проблемный кусок
+        Link_Creater.InjuryCreator(ontology);
         ontology.apply_change();
 
 //        ontology.save_ontology("/Users/darkness/Downloads/Ontology_Lab_3/src/resources/ontology_new.owl");

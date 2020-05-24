@@ -4,6 +4,8 @@ package My_Class;
 // а также заполнение атрибутов
 
 import My_Class.Handler.Handler;
+import My_Class.Ontology_Name.Injury_type;
+import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.model.*;
 
 
@@ -36,7 +38,17 @@ public class Link_Creater {
 
         // запускаем для детей
         run_for_child(bound, ontology);
+
         ontology.apply_change();
+
+    }
+
+    public static void InjuryCreator(Interaction_Ontology ontology){
+        Injury_type.init_map();
+        String name = Type_Equipment.get_type_class(Type_Equipment.Type_Class.InjuryType);
+
+        ontology.set_individual_axiom(name, Injury_type.injury_type);
+
     }
 
 }

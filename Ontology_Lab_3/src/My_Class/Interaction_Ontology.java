@@ -1,6 +1,7 @@
 package My_Class;
 
 import My_Class.Handler.Handler;
+import My_Class.Ontology_Name.Injury_type;
 import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.*;
@@ -10,6 +11,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 
 public class Interaction_Ontology {
@@ -36,6 +38,7 @@ public class Interaction_Ontology {
 
         Type_Equipment.init_map();
         Handler.init();
+        Injury_type.init_map();
 
         this.bound_ontology = new Bound_Ontology(null, null);
     }
@@ -101,6 +104,8 @@ public class Interaction_Ontology {
 
     }
 
+    public ArrayList<OWLAxiom> getList(){ return list_change;}
+
     public OWLOntology get_Ontology(){
         return this.ontology;
     }
@@ -130,6 +135,7 @@ public class Interaction_Ontology {
         OWLIndividual ret = null;
 
         if (owl_class != null && ind != null) {
+
             OWLDataFactory df = this.get_Factory();
             String ns = this.get_iri(); // вытаскиваем IRI
             OWLClass f_class = df.getOWLClass(IRI.create(ns + owl_class));
@@ -139,8 +145,24 @@ public class Interaction_Ontology {
 
             ret = individ;
         }
-
         return ret;
+    }
+
+    void set_individual_axiom(String owl_class, HashMap<String,String> ind){
+        if (owl_class != null && ind != null) {
+
+            OWLDataFactory df = this.get_Factory();
+            String ns = this.get_iri(); // вытаскиваем IRI
+            OWLClass f_class = df.getOWLClass(IRI.create(ns + owl_class));
+
+            for (String ind_name: ind.keySet()){
+                OWLIndividual individ = df.getOWLNamedIndividual(IRI.create(ns + ind_name));
+                this.add_change(df.getOWLClassAssertionAxiom(f_class, individ));
+                apply_change();
+            }
+
+
+        }
     }
 
     /**
@@ -148,7 +170,6 @@ public class Interaction_Ontology {
      * @param up_class имя главного класса
      * @param down_class имя подкласса
      */
-    @Deprecated
     public void set_subclass_axiom(String up_class, String down_class){
         if (up_class != null && down_class != null) {
             OWLDataFactory df = this.get_Factory();
