@@ -11,7 +11,7 @@ public class Parsing_Ontology {
     }
 
     static public void parsing(SCL scl, Interaction_Ontology ont){
-        ont.bound_ontology = new Bound_Ontology(scl);
+        ont.bound_ontology = new Bound_Ontology(scl, Type_Equipment.Type_Class.SCL);
 
         for (TSubstation substation : scl.getSubstation()){
             ont.bound_ontology.add_child(parsing(substation, ont));
@@ -20,7 +20,7 @@ public class Parsing_Ontology {
 
     static Bound_Ontology parsing(TSubstation substation, Interaction_Ontology ont){
 
-        Bound_Ontology bound = new Bound_Ontology(substation);
+        Bound_Ontology bound = new Bound_Ontology(substation, Type_Equipment.Type_Class.Substation);
 
         for (TVoltageLevel level : substation.getVoltageLevel()){
             bound.add_child(parsing(level, ont));
@@ -35,10 +35,10 @@ public class Parsing_Ontology {
 
     static Bound_Ontology parsing(TVoltageLevel voltageLevel, Interaction_Ontology ont){
 
-        Bound_Ontology bound = new Bound_Ontology(voltageLevel);
+        Bound_Ontology bound = new Bound_Ontology(voltageLevel, Type_Equipment.Type_Class.VoltageLevel);
 
         bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type_class(Type_Equipment.Type_Class.VoltageLevel),
-                voltageLevel.getName()));
+                "V" + voltageLevel.getName()));
 
         for (TBay bay : voltageLevel.getBay()) {
             bound.add_child(parsing(bay, ont));
@@ -48,7 +48,7 @@ public class Parsing_Ontology {
     }
 
     static Bound_Ontology parsing(TPowerTransformer transformer, Interaction_Ontology ont){
-        Bound_Ontology bound = new Bound_Ontology(transformer);
+        Bound_Ontology bound = new Bound_Ontology(transformer, Type_Equipment.Type_Class.PowerTransformer);
 
         bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type(transformer.getType().toString()),
                 transformer.getName()));
@@ -61,7 +61,7 @@ public class Parsing_Ontology {
     }
 
     static Bound_Ontology parsing(TTransformerWinding winding, Interaction_Ontology ont, TPowerTransformer transformer){
-        Bound_Ontology bound = new Bound_Ontology(transformer);
+        Bound_Ontology bound = new Bound_Ontology(winding,  Type_Equipment.Type_Class.Winding);
 
         bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type(winding.getType().value()),
                 join_name(transformer.getName(),winding.getName())));
@@ -70,7 +70,7 @@ public class Parsing_Ontology {
     }
 
     static Bound_Ontology parsing(TBay bay, Interaction_Ontology ont){
-        Bound_Ontology bound = new Bound_Ontology(bay);
+        Bound_Ontology bound = new Bound_Ontology(bay,  Type_Equipment.Type_Class.Bay);
 
         bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type_class(Type_Equipment.Type_Class.Bay),
                 bay.getName()));
@@ -87,7 +87,7 @@ public class Parsing_Ontology {
     }
 
     static Bound_Ontology parsing(TConductingEquipment equipment, Interaction_Ontology ont){
-        Bound_Ontology bound = new Bound_Ontology(equipment);
+        Bound_Ontology bound = new Bound_Ontology(equipment,  Type_Equipment.Type_Class.ConductingEquipment);
 
         bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type(equipment.getType()),
                 equipment.getName()));
@@ -111,7 +111,7 @@ public class Parsing_Ontology {
     }
 
     static Bound_Ontology parsing(TConnectivityNode node, Interaction_Ontology ont, TBay bay){
-        Bound_Ontology bound = new Bound_Ontology(node);
+        Bound_Ontology bound = new Bound_Ontology(node, Type_Equipment.Type_Class.ConnectivityNode);
 
         bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type_class(Type_Equipment.Type_Class.ConnectivityNode),
                 join_name(node.getName(), bay.getName())));

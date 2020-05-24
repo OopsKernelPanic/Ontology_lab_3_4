@@ -137,37 +137,19 @@ public class Bound_Ontology{
      * @param bound - узел, по которому будет идти поиск родителя
      * @param type - название типа элемента родителя, который мы ищем
      */
-    ///*
-    /*
 
-    Функция работает неправильно. Цикл выполняется бесконечно, т.к. while (true)
-    Внутри цикла вызывается метод "получить тип родителя" и полученный тип сравнивается с искомым
-     */
-    public Bound_Ontology get_needed_parent(Bound_Ontology bound, Type_Equipment.Type_Class type){
+    public Bound_Ontology get_needed_parent(Bound_Ontology bound, Type_Equipment.Type_Class type) {
         Bound_Ontology tempBound;
+        tempBound = bound.getParent();
 
-            System.out.println("    ");
-            tempBound = bound.getParent();
-            //System.out.println("Parent: "+ bound.getParent());
-            if(tempBound == null){
-
-                System.out.println("tempBound == null");
-                return null;
-            } // end if (tempBound == null)
-
-            if (tempBound.getType() == type){
-
-                System.out.println("tempBound == type");
-                System.out.println("tempBound.getType(): "+ tempBound.getType());
-                System.out.println("type: "+type);
-                return tempBound;
-            }
-            else{
-                System.out.println("tempBound != type");
-                System.out.println("tempBound.getType(): "+ tempBound.getType());
-                System.out.println("type: "+type);
-
-            } // end if-else
+        if (tempBound == null) {
+            return null;
+        } // end if (tempBound == null)
+        else if (tempBound.getType() == type) {
+            return tempBound;
+        } else {
+            tempBound = this.get_needed_parent(tempBound, type); // рекурсия до победного
+        }
         return tempBound;
 
     } // end return

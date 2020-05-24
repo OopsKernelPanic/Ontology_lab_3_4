@@ -16,18 +16,6 @@ public class Link_Creater {
     public Link_Creater() throws OWLOntologyCreationException {
     }
 
-
-    /**
-     * Запуск общего метода Creater для дочерних узлов (который выше)
-     *
-     * @param bound узел, для детей которого будет запущен метод
-     */
-    public static void run_for_child(Bound_Ontology bound, Interaction_Ontology ontology) {
-        for (Bound_Ontology child : bound.get_child()) {
-            Creater(child, ontology);
-        }
-    }
-
     /**
      * Общий метод. Дерни его для основного узла SCD и онтология заполнится свойствами и атрибутами.
      * @param bound
@@ -37,8 +25,11 @@ public class Link_Creater {
         // вызываем обработчик
         Handler.handler(bound, ontology);
 
+        System.out.println("раскрываем" + bound.getType());
         // запускаем для детей
-        run_for_child(bound, ontology);
+        for (Bound_Ontology child : bound.get_child()) {
+            Creater(child, ontology);
+        }
 
         ontology.apply_change();
 

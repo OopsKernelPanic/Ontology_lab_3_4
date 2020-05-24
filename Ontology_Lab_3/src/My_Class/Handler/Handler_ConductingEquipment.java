@@ -26,6 +26,7 @@ public class Handler_ConductingEquipment implements Base_Handler {
         if(parent==null){
             System.out.println("При добавлении свойства "+Type_Equipment.Type_Class.VoltageLevel.toString()+" к индивиду "+ontology.get_individ_name(ind_Domains) + " произошла ошибка - не найден нужный родитель");
         }else {
+            System.out.println(parent.getType());
             OWLIndividual ind_Ranges = parent.getIndividual();
             ontology.set_obj_property_axiom(Name_Properties.get_type_class(Name_Properties.Properties.isVoltage),
                     ontology.get_individ_name(ind_Domains), ontology.get_individ_name(ind_Ranges));
