@@ -154,14 +154,11 @@ public class Interaction_Ontology {
             OWLDataFactory df = this.get_Factory();
             String ns = this.get_iri(); // вытаскиваем IRI
             OWLClass f_class = df.getOWLClass(IRI.create(ns + owl_class));
-
             for (String ind_name: ind.keySet()){
+                System.out.println(ind_name);
                 OWLIndividual individ = df.getOWLNamedIndividual(IRI.create(ns + ind_name));
                 this.add_change(df.getOWLClassAssertionAxiom(f_class, individ));
-                apply_change();
             }
-
-
         }
     }
 
