@@ -154,6 +154,33 @@ public class Bound_Ontology{
 
     } // end return
 
+    /**
+     * метод позволяет искать детей, внуков и дальних детей узла
+     * @param bound узел
+     * @param type тип нужного оборудования
+     * @return
+     */
+    public ArrayList<Bound_Ontology> get_needed_children(Bound_Ontology bound, Type_Equipment.Type_Class type){
+        ArrayList<Bound_Ontology> child_list = new ArrayList<>(); // список возвращаемых детей
+
+
+        if (bound.get_child() == null) { // детей нет
+            return null;
+        }
+
+        for (Bound_Ontology child: bound.get_child()){
+
+            if (child.getType() == type) {
+                child_list.add(child);
+            } else {
+                // если идет поиск по дальним детям
+                ArrayList<Bound_Ontology> subchild_list = get_needed_children(child, type);
+                if (subchild_list != null) child_list.addAll(subchild_list);
+            }
+        }
+        return child_list;
+    }
+
 
 
 } // end class
