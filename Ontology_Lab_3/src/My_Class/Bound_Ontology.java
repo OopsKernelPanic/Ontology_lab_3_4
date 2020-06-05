@@ -31,7 +31,7 @@ public class Bound_Ontology{
     }
 
     Bound_Ontology(TTerminal element){
-        this((TBaseElement) element, Type_Equipment.Type_Class.RelayTerminal);
+        this((TBaseElement) element, Type_Equipment.Type_Class.Terminal);
     }
 
     Bound_Ontology(TVoltageLevel element){
@@ -154,6 +154,10 @@ public class Bound_Ontology{
 
     } // end return
 
+    public Bound_Ontology get_needed_parent(Type_Equipment.Type_Class type){
+        return this.get_needed_parent(this, type);
+    }
+
     /**
      * метод позволяет искать детей, внуков и дальних детей узла
      * @param bound узел
@@ -181,6 +185,9 @@ public class Bound_Ontology{
         return child_list;
     }
 
+    public ArrayList<Bound_Ontology> get_needed_children(Type_Equipment.Type_Class type) {
+        return this.get_needed_children(this, type);
+    }
 
 
 } // end class

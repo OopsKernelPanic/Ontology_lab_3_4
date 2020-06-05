@@ -1,12 +1,15 @@
 package My_Class.Excel;
 
+import My_Class.Ontology_Name.Type_Equipment;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -15,10 +18,10 @@ import java.util.Iterator;
  */
 public class Excel_Importer {
 
-    public static HashMap<String, String> importInjury() {
+    public static HashMap<String, String> importInjury(String Path_File) {
 
         HashMap<String, String> injury_map = new HashMap<>();
-        File myFile = new File("C://Users/Alexander//JavaProjects//Ontology_lab_3_4//Ontology_Lab_3//src//resources//InjuryForParsing.xlsx");
+        File myFile = new File(Path_File);
         FileInputStream fis;
         XSSFWorkbook myWorkBook = null;
         try {
@@ -53,6 +56,23 @@ public class Excel_Importer {
             }
         }
         return injury_map;
+    }
+
+    /**
+     * Преобразовать строку в массив enum
+     * @param str
+     * @return
+     */
+    public static ArrayList<Type_Equipment.Type_Class> get_type(String str){
+        ArrayList<Type_Equipment.Type_Class> ret = new ArrayList<>();
+
+        String[] list_str = str.split(",");
+
+        for (String it : list_str){
+            ret.add(Type_Equipment.get_type_class(it));
+        }
+
+        return ret;
     }
 }
 

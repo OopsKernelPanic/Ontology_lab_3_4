@@ -4,7 +4,6 @@ import My_Class.Bound_Ontology;
 import My_Class.Interaction_Ontology;
 import My_Class.Ontology_Name.Type_Equipment;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 // обработчик для добавления свойств и атрибутов индивидам онтологии
@@ -34,7 +33,7 @@ public class Handler {
         // добавить сюда оставшиеся обработчики
         dict_handler.put(Type_Equipment.Type_Class.VoltageLevel, new Handler_VoltageLevel());
         dict_handler.put(Type_Equipment.Type_Class.Winding, new Handler_TransformerWinding());
-        dict_handler.put(Type_Equipment.Type_Class.RelayTerminal, new Handler_Terminal());
+        //dict_handler.put(Type_Equipment.Type_Class.Terminal, new Handler_Terminal());
         dict_handler.put(Type_Equipment.Type_Class.ConnectivityNode, new Handler_ConnectivityNode());
         dict_handler.put(Type_Equipment.Type_Class.ConductingEquipment, new Handler_ConductingEquipment());
         dict_handler.put(Type_Equipment.Type_Class.PowerTransformer, new Handler_PowerTransformer());

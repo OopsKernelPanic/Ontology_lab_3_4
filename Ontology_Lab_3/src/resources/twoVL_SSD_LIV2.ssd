@@ -30,8 +30,8 @@
           <LNode iedName="None" lnClass="XCBR" lnInst="1" />
           <LNode iedName="None" lnClass="CILO" lnInst="1" />
           <LNode iedName="None" lnClass="CSWI" lnInst="1" />
-          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_6" name="terminal_1" />
-          <Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_5" name="terminal_2" />
+          <<Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_6" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_6" name="terminal_1" />
+                     Terminal connectivityNode="PS_1/500/bay_7/connvtyNode_5" substationName="PS_1" voltageLevelName="500" bayName="bay_7" cNodeName="connvtyNode_5" name="terminal_2" />
         </ConductingEquipment>
         <ConductingEquipment name="QS1_Q1C" type="DIS" sxy:x="8" sxy:y="6" sxy:dir="vertical">
           <LNode iedName="None" lnClass="XCBR" lnInst="2" />

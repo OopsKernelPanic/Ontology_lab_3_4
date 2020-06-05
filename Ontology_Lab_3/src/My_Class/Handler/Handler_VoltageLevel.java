@@ -5,7 +5,7 @@ import My_Class.Interaction_Ontology;
 import My_Class.Ontology_Name.Name_Attribut;
 import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.model.OWLIndividual;
-import ru.smarteps.scl.*;
+import ru.smarteps.scl.TVoltageLevel;
 
 public class Handler_VoltageLevel implements Base_Handler {
 

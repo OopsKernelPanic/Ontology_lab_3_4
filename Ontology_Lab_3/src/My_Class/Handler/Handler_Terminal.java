@@ -7,7 +7,6 @@ import My_Class.Ontology_Name.Name_Properties;
 import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.model.OWLIndividual;
 import ru.smarteps.scl.TTerminal;
-import ru.smarteps.scl.TVoltageLevel;
 
 public class Handler_Terminal implements Base_Handler {
 
@@ -35,7 +34,7 @@ public class Handler_Terminal implements Base_Handler {
 
         Bound_Ontology parent = bound.get_needed_parent(bound, Type_Equipment.Type_Class.EquipmentType);
         if(parent==null){
-            System.out.println("При добавлении свойства "+Type_Equipment.Type_Class.EquipmentType.toString()+" к индивиду "+ontology.get_individ_name(ind_Domains) + " произошла ошибка - не найден нужный родитель");
+            System.out.println("При добавлении свойства "+ Type_Equipment.Type_Class.EquipmentType.toString()+" к индивиду "+ontology.get_individ_name(ind_Domains) + " произошла ошибка - не найден нужный родитель");
         }else {
             OWLIndividual ind_Ranges = parent.getIndividual();
             ontology.set_obj_property_axiom(Name_Properties.get_type_class(Name_Properties.Properties.Protects),
@@ -45,6 +44,6 @@ public class Handler_Terminal implements Base_Handler {
 
     @Override
     public Type_Equipment.Type_Class get_type() {
-        return Type_Equipment.Type_Class.RelayTerminal;
+        return Type_Equipment.Type_Class.Terminal;
     }
 }

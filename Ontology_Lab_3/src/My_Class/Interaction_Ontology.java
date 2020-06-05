@@ -5,6 +5,7 @@ import My_Class.Ontology_Name.Injury_type;
 import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.*;
+import org.semanticweb.owlapi.reasoner.OWLReasoner;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -24,6 +25,8 @@ public class Interaction_Ontology {
 
     protected OWLOntology ontology;
 
+    protected OWLReasoner reasoner;
+
     ArrayList<OWLAxiom> list_change; // лист из изменений онтологии.
 
     public Bound_Ontology bound_ontology; // дерево взаимодействия между онтологией и scd
@@ -31,16 +34,18 @@ public class Interaction_Ontology {
     /*!
     Открытие файла с онтологией
      */
-    public Interaction_Ontology(String path_ontology){
+    public Interaction_Ontology(String path_ontology, String path_excel){
         this.init_ontology(path_ontology);
 
         this.list_change = new ArrayList<>();
 
         Type_Equipment.init_map();
         Handler.init();
-        Injury_type.init_map();
+        Injury_type.init_map(path_excel);
 
         this.bound_ontology = new Bound_Ontology(null, null);
+
+
     }
 
 
@@ -95,7 +100,7 @@ public class Interaction_Ontology {
     public void save_ontology(String path){
 
         try {
-            OutputStream out = new FileOutputStream("src/resources/ontology_new.owl");
+            OutputStream out = new FileOutputStream(path);
             this.get_Manager().saveOntology(this.get_Ontology(), out);
         }
         catch (FileNotFoundException | OWLOntologyStorageException e){
@@ -185,14 +190,21 @@ public class Interaction_Ontology {
      * @param ind2 имя индивида
      */
     public void set_obj_property_axiom(String obj_prop, String ind1, String ind2){
-        if (obj_prop != null && ind1 != null && ind2 != null) {
+        String ns = this.get_iri(); // вытаскиваем IRI
+
+        OWLIndividual f_ind = df.getOWLNamedIndividual(IRI.create(ns + ind1));
+        OWLIndividual s_ind = df.getOWLNamedIndividual(IRI.create(ns + ind2));
+
+        this.set_obj_property_axiom(obj_prop, f_ind, s_ind);
+    }
+
+    public void set_obj_property_axiom(String obj_prop, OWLIndividual ind1, OWLIndividual ind2){
+        if (obj_prop != null && ind1 != null && ind2 != null){
             OWLDataFactory df = this.get_Factory();
             String ns = this.get_iri(); // вытаскиваем IRI
 
             OWLObjectProperty objectProperty = df.getOWLObjectProperty(IRI.create(ns + obj_prop));
-            OWLIndividual f_ind = df.getOWLNamedIndividual(IRI.create(ns + ind1));
-            OWLIndividual s_ind = df.getOWLNamedIndividual(IRI.create(ns + ind2));
-            this.add_change(df.getOWLObjectPropertyAssertionAxiom(objectProperty, f_ind, s_ind));
+            this.add_change(df.getOWLObjectPropertyAssertionAxiom(objectProperty, ind1, ind2));
         }
     }
 

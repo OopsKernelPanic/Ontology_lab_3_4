@@ -1,6 +1,9 @@
 package My_Class;
 
+import My_Class.Ontology_Name.Injury_type;
+import My_Class.Ontology_Name.Name_Attribut;
 import My_Class.Ontology_Name.Type_Equipment;
+import org.semanticweb.owlapi.model.OWLIndividual;
 import ru.smarteps.scl.*;
 
 
@@ -89,13 +92,13 @@ public class Parsing_Ontology {
     static Bound_Ontology parsing(TConductingEquipment equipment, Interaction_Ontology ont){
         Bound_Ontology bound = new Bound_Ontology(equipment,  Type_Equipment.Type_Class.ConductingEquipment);
 
-        bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type(equipment.getType()),
+        bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type(equipment.getType(), equipment.getName()),
                 equipment.getName()));
 
-        // убираем терминалы
-//        for (TTerminal terminal : equipment.getTerminal()){
-//            bound.add_child(parsing(terminal, ont, equipment));
-//        }
+        // терминалы добавляем в дерево, но не добавляем в онтологию
+        for (TTerminal terminal : equipment.getTerminal()){
+            bound.add_child(parsing(terminal, ont, equipment));
+        }
 
         return bound;
     }
@@ -104,8 +107,7 @@ public class Parsing_Ontology {
     static Bound_Ontology parsing(TTerminal terminal, Interaction_Ontology ont, TConductingEquipment equipment){
         Bound_Ontology bound = new Bound_Ontology(terminal);
 
-        bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type_class(Type_Equipment.Type_Class.RelayTerminal),
-                join_name(equipment.getName(), terminal.getName())));
+        bound.set_individ(null);
 
         return bound;
     }
@@ -117,5 +119,17 @@ public class Parsing_Ontology {
                 join_name(node.getName(), bay.getName())));
 
         return bound;
+    }
+
+    public static void InjuryParsing(Interaction_Ontology ontology){
+
+        String name = Type_Equipment.get_type_class(Type_Equipment.Type_Class.InjuryType);
+
+        for (String injury: Injury_type.injury_type.keySet()){
+            OWLIndividual ind = ontology.set_individual_axiom(name, injury);
+            ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.Object_ID),
+                    ind, Long.toString(System.nanoTime()));
+        }
+
     }
 }
