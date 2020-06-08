@@ -52,7 +52,7 @@ public class Excel_Importer {
                 String element = cellElement.getStringCellValue();
 
                 injury_map.put(injury, element);
-
+                break;
             }
         }
         return injury_map;

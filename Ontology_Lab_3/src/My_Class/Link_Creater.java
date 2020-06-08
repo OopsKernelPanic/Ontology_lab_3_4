@@ -50,15 +50,17 @@ public class Link_Creater {
             type = Type_Equipment.get_type_class(Type_Equipment.map_type.get(element.getType()));
         }
 
-
         if (dict.containsKey(type)){
 
             String property = Name_Properties.get_type_class(Name_Properties.Properties.isInjury);
             String domain = ontology.get_individ_name(bound.getIndividual());
 
-            for (String str : dict.get(type)){
+            String[] split_name = domain.split("_");
+            String name_voltage = split_name[split_name.length - 1];
+
+            for (String it : dict.get(type)){
                 // добавляем связи в онтологию
-                ontology.set_obj_property_axiom(property, domain, str);
+                ontology.set_obj_property_axiom(property, domain, it);
             }
         }
     }

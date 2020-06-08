@@ -2,9 +2,12 @@ package My_Class;
 
 import My_Class.Ontology_Name.Injury_type;
 import My_Class.Ontology_Name.Name_Attribut;
+import My_Class.Ontology_Name.Name_Properties;
 import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.model.OWLIndividual;
 import ru.smarteps.scl.*;
+
+import java.util.ArrayList;
 
 
 public class Parsing_Ontology {
@@ -125,10 +128,36 @@ public class Parsing_Ontology {
 
         String name = Type_Equipment.get_type_class(Type_Equipment.Type_Class.InjuryType);
 
+        ArrayList<Bound_Ontology> list_voltage = ontology.get_bound().get_needed_children(Type_Equipment.Type_Class.VoltageLevel);
+
+        ArrayList<String> list_name_voltage = new ArrayList<>();
+        String attr_voltage;
+
+        for (Bound_Ontology it_bound : list_voltage){
+            attr_voltage = it_bound.getIndividual().toStringID();
+            String[] split_name = attr_voltage.split("#");
+            attr_voltage = split_name[split_name.length - 1].replace("V", "");
+            list_name_voltage.add(attr_voltage);
+        }
+
+        String name_voltage;
+
         for (String injury: Injury_type.injury_type.keySet()){
+
+            String[] split_voltage = injury.split("_");
+            name_voltage = split_voltage[split_voltage.length - 1];
+
+
             OWLIndividual ind = ontology.set_individual_axiom(name, injury);
             ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.Object_ID),
                     ind, Long.toString(System.nanoTime()));
+
+            int index = list_name_voltage.indexOf(name_voltage);
+
+            ontology.set_data_property_axiom(Name_Properties.get_type_class(Name_Properties.Properties.isVoltage),
+                    ind, ontology.get_individ_name(list_voltage.get(index).getIndividual()));
+
+
         }
 
     }

@@ -6,7 +6,7 @@ import My_Class.Ontology_Name.Name_Attribut;
 import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.model.OWLIndividual;
 
-public class Handler_ConnectivityNode implements Base_Handler{
+public class Handler_ConnectivityNode implements Base_Handler {
 
 
     @Override
