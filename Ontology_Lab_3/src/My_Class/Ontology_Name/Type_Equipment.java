@@ -8,6 +8,7 @@ public class Type_Equipment {
         SCL,
         Substation,
         Bay,
+        Bus,
         ConnectivityNode,
         EquipmentType,
         InjuryType,
@@ -127,6 +128,9 @@ public class Type_Equipment {
                 ret += "Substation";
                 break;
             case Bay:
+                ret += "Bay";
+                break;
+            case Bus:
                 ret += "Bus";
                 break;
             default:
@@ -177,7 +181,7 @@ public class Type_Equipment {
                 ret = Type_Class.Substation;
                 break;
             case "Bus":
-                ret = Type_Class.Bay;
+                ret = Type_Class.Bus;
                 break;
             case "OverheadLine":
                 ret = Type_Class.OverheadLine;

@@ -7,7 +7,7 @@ import My_Class.Ontology_Name.Name_Properties;
 import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.model.OWLIndividual;
 
-public class Handler_TransformerWinding implements Base_Handler {
+public class Handler_TransformerWinding implements Base_Handler{
     @Override
     public void set_attribut(Bound_Ontology bound, Interaction_Ontology ontology) {
         OWLIndividual ind = bound.getIndividual();

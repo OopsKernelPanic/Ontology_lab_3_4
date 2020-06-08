@@ -37,7 +37,7 @@ public class Handler {
         dict_handler.put(Type_Equipment.Type_Class.ConnectivityNode, new Handler_ConnectivityNode());
         dict_handler.put(Type_Equipment.Type_Class.ConductingEquipment, new Handler_ConductingEquipment());
         dict_handler.put(Type_Equipment.Type_Class.PowerTransformer, new Handler_PowerTransformer());
-        dict_handler.put(Type_Equipment.Type_Class.Bay, new Handler_Bay());
+        dict_handler.put(Type_Equipment.Type_Class.Bus, new Handler_Bus());
     }
 
     /**

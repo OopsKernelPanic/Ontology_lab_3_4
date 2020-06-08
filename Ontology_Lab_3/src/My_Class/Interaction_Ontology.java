@@ -240,4 +240,73 @@ public class Interaction_Ontology {
     }
 
 
+    /**
+     * Получить индивиды напряжений
+     * @return
+     */
+    public ArrayList<Bound_Ontology> get_ind_voltage(){
+        return this.get_bound().get_needed_children(Type_Equipment.Type_Class.VoltageLevel);
+    }
+
+    public ArrayList<String> get_list_voltage(){
+        return get_list_voltage(this.get_ind_voltage());
+    }
+
+    /**
+     * Получить список напряжений
+     * @return
+     */
+    public ArrayList<String> get_list_voltage(ArrayList<Bound_Ontology> list_voltage) {
+
+        ArrayList<String> list_name_voltage = new ArrayList<>();
+        String attr_voltage;
+
+        for (Bound_Ontology it_bound : list_voltage) {
+            attr_voltage = it_bound.getIndividual().toStringID();
+            String[] split_name = attr_voltage.split("#");
+            attr_voltage = split_name[split_name.length - 1].replace("V", "");
+            list_name_voltage.add(attr_voltage);
+        }
+
+        return list_name_voltage;
+    }
+
+    String get_voltage_equip(Bound_Ontology bound){
+        String attr_voltage = bound.getIndividual().toStringID();
+        String[] split_name = attr_voltage.split("#");
+        attr_voltage = split_name[split_name.length - 1].replace("V", "");
+        return attr_voltage;
+    }
+
+    public OWLIndividual get_individ_voltage(String name){
+
+        ArrayList<Bound_Ontology> list_voltage = this.get_ind_voltage();
+
+        ArrayList<String> list_name_voltage = this.get_list_voltage(list_voltage);
+
+        int index = list_name_voltage.indexOf(name);
+
+        return list_voltage.get(index).getIndividual();
+    }
+
+    public String get_max_voltage(){
+        ArrayList<String> listvoltage = this.get_list_voltage();
+
+        int value = -1;
+        for (String it : listvoltage){
+            int new_value = Integer.valueOf(it);
+            if (value < new_value){
+                value = new_value;
+            }
+        }
+
+        return String.valueOf(value);
+    }
+
+
+    public String get_name_injury(String injury){
+        String[] split_voltage = injury.split("_");
+        return split_voltage[split_voltage.length - 1];
+    }
+
 }

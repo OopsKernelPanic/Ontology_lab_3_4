@@ -55,12 +55,22 @@ public class Link_Creater {
             String property = Name_Properties.get_type_class(Name_Properties.Properties.isInjury);
             String domain = ontology.get_individ_name(bound.getIndividual());
 
-            String[] split_name = domain.split("_");
-            String name_voltage = split_name[split_name.length - 1];
+            String name_voltage;
 
-            for (String it : dict.get(type)){
-                // добавляем связи в онтологию
-                ontology.set_obj_property_axiom(property, domain, it);
+            Bound_Ontology bound_voltage = bound.get_needed_parent(Type_Equipment.Type_Class.VoltageLevel);
+
+            if (bound_voltage != null) {
+                String voltage_equip = ontology.get_voltage_equip(bound_voltage);
+
+                for (String it : dict.get(type)) {
+                    // добавляем связи в онтологию
+
+                    name_voltage = ontology.get_name_injury(it);
+
+                    if (name_voltage.compareTo(voltage_equip) == 0) {
+                        ontology.set_obj_property_axiom(property, domain, it);
+                    }
+                }
             }
         }
     }

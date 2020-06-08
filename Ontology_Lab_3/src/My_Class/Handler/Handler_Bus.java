@@ -7,7 +7,9 @@ import My_Class.Ontology_Name.Name_Properties;
 import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.model.OWLIndividual;
 
-public class Handler_Bay implements Base_Handler {
+import java.util.ArrayList;
+
+public class Handler_Bus implements Base_Handler {
 
 
     @Override
@@ -42,10 +44,19 @@ public class Handler_Bay implements Base_Handler {
                     ontology.get_individ_name(ind_Domains), ontology.get_individ_name(ind_Ranges));
         }
 
+        parent = bound.getParent();
+        ArrayList<Bound_Ontology> list_node = parent.get_needed_children(Type_Equipment.Type_Class.ConnectivityNode);
+
+        if (list_node != null) {
+            for (Bound_Ontology it : list_node) {
+                ontology.set_obj_property_axiom(Name_Properties.get_type_class(Name_Properties.Properties.isConnected),
+                        bound.getIndividual(), it.getIndividual());
+            }
+        }
     }
 
     @Override
     public Type_Equipment.Type_Class get_type() {
-        return Type_Equipment.Type_Class.Bay;
+        return Type_Equipment.Type_Class.Bus;
     }
 }

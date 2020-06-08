@@ -7,8 +7,6 @@ import My_Class.Ontology_Name.Type_Equipment;
 import org.semanticweb.owlapi.model.OWLIndividual;
 import ru.smarteps.scl.*;
 
-import java.util.ArrayList;
-
 
 public class Parsing_Ontology {
 
@@ -78,8 +76,33 @@ public class Parsing_Ontology {
     static Bound_Ontology parsing(TBay bay, Interaction_Ontology ont){
         Bound_Ontology bound = new Bound_Ontology(bay,  Type_Equipment.Type_Class.Bay);
 
-        bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type_class(Type_Equipment.Type_Class.Bay),
-                bay.getName()));
+//        bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type_class(Type_Equipment.Type_Class.Bay),
+//                bay.getName()));
+
+
+        // получаем text
+        TText text = bay.getText();
+        if (text != null) {
+            boolean flag_bus = false;
+            String content;
+            for (Object it : text.getContent()){
+                content = (String) it;
+
+                if (content.compareTo(Type_Equipment.get_type_class(Type_Equipment.Type_Class.Bus)) == 0){
+                    // текст содержит Bus => это реально шина и добавляем
+                    flag_bus = true;
+                    break;
+                }
+            }
+            if (flag_bus) {
+                for (TConnectivityNode it : bay.getConnectivityNode()) {
+                    Bound_Ontology bus_bound = new Bound_Ontology(it, Type_Equipment.Type_Class.Bus);
+                    bus_bound.set_individ(ont.set_individual_axiom(Type_Equipment.get_type_class(Type_Equipment.Type_Class.Bus),
+                            it.getName()));
+                    bound.add_child(bus_bound);
+                }
+            }
+        }
 
         for (TConductingEquipment equipment : bay.getConductingEquipment()){
             bound.add_child(parsing(equipment, ont));
@@ -128,37 +151,20 @@ public class Parsing_Ontology {
 
         String name = Type_Equipment.get_type_class(Type_Equipment.Type_Class.InjuryType);
 
-        ArrayList<Bound_Ontology> list_voltage = ontology.get_bound().get_needed_children(Type_Equipment.Type_Class.VoltageLevel);
-
-        ArrayList<String> list_name_voltage = new ArrayList<>();
-        String attr_voltage;
-
-        for (Bound_Ontology it_bound : list_voltage){
-            attr_voltage = it_bound.getIndividual().toStringID();
-            String[] split_name = attr_voltage.split("#");
-            attr_voltage = split_name[split_name.length - 1].replace("V", "");
-            list_name_voltage.add(attr_voltage);
-        }
-
         String name_voltage;
 
         for (String injury: Injury_type.injury_type.keySet()){
 
-            String[] split_voltage = injury.split("_");
-            name_voltage = split_voltage[split_voltage.length - 1];
-
+            name_voltage = ontology.get_name_injury(injury);
 
             OWLIndividual ind = ontology.set_individual_axiom(name, injury);
             ontology.set_data_property_axiom(Name_Attribut.get_type_class(Name_Attribut.Attributes.Object_ID),
                     ind, Long.toString(System.nanoTime()));
 
-            int index = list_name_voltage.indexOf(name_voltage);
 
             ontology.set_data_property_axiom(Name_Properties.get_type_class(Name_Properties.Properties.isVoltage),
-                    ind, ontology.get_individ_name(list_voltage.get(index).getIndividual()));
-
+                    ind, ontology.get_individ_name(ontology.get_individ_voltage(name_voltage)));
 
         }
-
     }
 }
