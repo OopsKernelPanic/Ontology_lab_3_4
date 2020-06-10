@@ -239,7 +239,6 @@ public class Interaction_Ontology {
         return name;
     }
 
-
     /**
      * Получить индивиды напряжений
      * @return

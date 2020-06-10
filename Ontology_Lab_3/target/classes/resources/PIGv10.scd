@@ -324,7 +324,7 @@
 					<Terminal name="terminal2" connectivityNode="PIGGI/500/K1_23/connvtyNode10" substationName="PIGGI" voltageLevelName="500" bayName="K1_23" cNodeName="connvtyNode10" />
 				</ConductingEquipment>	
 				
-							<ConductingEquipment name="QSG3_1_K12" type="DIS" sxy:x="7" sxy:y="1">
+                <ConductingEquipment name="QSG3_1_K12" type="DIS" sxy:x="7" sxy:y="1">
 					<Terminal name="terminal1" connectivityNode="PIGGI/500/K1_23/connvtyNode10" substationName="PIGGI" voltageLevelName="500" bayName="K1_23" cNodeName="connvtyNode10" />
 				</ConductingEquipment>
 				

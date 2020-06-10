@@ -29,8 +29,7 @@ public class Handler {
      * Заполнение словаря объектами-обработчиками
      */
     static void init_handler(){
-        //TODO
-        // добавить сюда оставшиеся обработчики
+
         dict_handler.put(Type_Equipment.Type_Class.VoltageLevel, new Handler_VoltageLevel());
         dict_handler.put(Type_Equipment.Type_Class.Winding, new Handler_TransformerWinding());
         //dict_handler.put(Type_Equipment.Type_Class.Terminal, new Handler_Terminal());

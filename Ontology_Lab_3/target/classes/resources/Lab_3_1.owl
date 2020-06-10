@@ -180,6 +180,10 @@
         <ObjectProperty IRI="#isVoltage"/>
         <Class IRI="#EquipmentType"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isVoltage"/>
+        <Class IRI="#InjuryType"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#Protects"/>
         <Class IRI="#EquipmentType"/>

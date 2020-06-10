@@ -19,7 +19,7 @@ public class TEST {
 
 
         String Path_Main = "/Users/darkness/Downloads/Ontology_Lab/";
-        
+
         String Path_XML = Path_Main + "src/resources/PIGv10.scd";
 
         String Path_Ontology = Path_Main + "src/resources/Lab_3_1.owl";

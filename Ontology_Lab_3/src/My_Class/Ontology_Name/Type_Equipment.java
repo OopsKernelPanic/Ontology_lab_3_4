@@ -18,7 +18,6 @@ public class Type_Equipment {
         PowerTransformer,
         Winding,
         ConductingEquipment,
-
         OverheadLine,
         Disconnector,
         VT,
@@ -26,7 +25,6 @@ public class Type_Equipment {
         Breaker,
         CableLine,
         Reactor,
-
         None
     }
 
